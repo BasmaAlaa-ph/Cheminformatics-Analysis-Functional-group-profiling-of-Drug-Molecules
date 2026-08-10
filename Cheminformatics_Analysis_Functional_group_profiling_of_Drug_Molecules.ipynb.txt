@@ -1,0 +1,984 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "110ebb36"
+      },
+      "source": [
+        "# Cheminformatics Analysis: Functional Group Profiling of Drug Molecules"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "b5d45f1c"
+      },
+      "source": [
+        "### Mount Google Drive\n",
+        "This cell mounts my Google Drive, allowing the notebook to access files stored there. This is necessary to load the dataset from Drive."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RLfYtcUFL-Eq",
+        "outputId": "bfc355ef-f303-4f84-9a38-6f734c1ee5e7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "94e6beaf"
+      },
+      "source": [
+        "### Load Dataset\n",
+        "This cell imports the pandas library and loads the `Drugs.csv` file from  Google Drive into a pandas DataFrame named `df`. It then displays the first 5 rows to give you a quick overview of the data."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# Define the path to the CSV file in Google Drive\n",
+        "file_path = '/content/drive/MyDrive/Drugs.csv'\n",
+        "\n",
+        "# Load the CSV file into a pandas DataFrame\n",
+        "df = pd.read_csv(file_path)\n",
+        "\n",
+        "# Display the first 5 rows of the DataFrame\n",
+        "display(df.head())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 275
+        },
+        "collapsed": true,
+        "id": "dvQ0GR31MKPy",
+        "outputId": "49679f33-8f53-48a7-c367-994e101dd2d0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "  Compound ID  ESOL predicted log solubility in mols per litre  \\\n",
+              "0   Amigdalin                                           -0.974   \n",
+              "1    Fenfuram                                           -2.885   \n",
+              "2      citral                                           -2.579   \n",
+              "3      Picene                                           -6.618   \n",
+              "4   Thiophene                                           -2.232   \n",
+              "\n",
+              "   Minimum Degree  Molecular Weight  Number of H-Bond Donors  Number of Rings  \\\n",
+              "0               1           457.432                        7                3   \n",
+              "1               1           201.225                        1                2   \n",
+              "2               1           152.237                        0                0   \n",
+              "3               2           278.354                        0                5   \n",
+              "4               2            84.143                        0                1   \n",
+              "\n",
+              "   Number of Rotatable Bonds  Polar Surface Area  \\\n",
+              "0                          7              202.32   \n",
+              "1                          2               42.24   \n",
+              "2                          4               17.07   \n",
+              "3                          0                0.00   \n",
+              "4                          0                0.00   \n",
+              "\n",
+              "   measured log solubility in mols per litre  \\\n",
+              "0                                      -0.77   \n",
+              "1                                      -3.30   \n",
+              "2                                      -2.06   \n",
+              "3                                      -7.87   \n",
+              "4                                      -1.33   \n",
+              "\n",
+              "                                              smiles  \n",
+              "0  OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...  \n",
+              "1                             Cc1occc1C(=O)Nc2ccccc2  \n",
+              "2                               CC(C)=CCCC(C)=CC(=O)  \n",
+              "3                 c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43  \n",
+              "4                                            c1ccsc1  "
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-47e95edb-90d3-4c46-960b-4b8a4d2096d4\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Compound ID</th>\n",
+              "      <th>ESOL predicted log solubility in mols per litre</th>\n",
+              "      <th>Minimum Degree</th>\n",
+              "      <th>Molecular Weight</th>\n",
+              "      <th>Number of H-Bond Donors</th>\n",
+              "      <th>Number of Rings</th>\n",
+              "      <th>Number of Rotatable Bonds</th>\n",
+              "      <th>Polar Surface Area</th>\n",
+              "      <th>measured log solubility in mols per litre</th>\n",
+              "      <th>smiles</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Amigdalin</td>\n",
+              "      <td>-0.974</td>\n",
+              "      <td>1</td>\n",
+              "      <td>457.432</td>\n",
+              "      <td>7</td>\n",
+              "      <td>3</td>\n",
+              "      <td>7</td>\n",
+              "      <td>202.32</td>\n",
+              "      <td>-0.77</td>\n",
+              "      <td>OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Fenfuram</td>\n",
+              "      <td>-2.885</td>\n",
+              "      <td>1</td>\n",
+              "      <td>201.225</td>\n",
+              "      <td>1</td>\n",
+              "      <td>2</td>\n",
+              "      <td>2</td>\n",
+              "      <td>42.24</td>\n",
+              "      <td>-3.30</td>\n",
+              "      <td>Cc1occc1C(=O)Nc2ccccc2</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>citral</td>\n",
+              "      <td>-2.579</td>\n",
+              "      <td>1</td>\n",
+              "      <td>152.237</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>4</td>\n",
+              "      <td>17.07</td>\n",
+              "      <td>-2.06</td>\n",
+              "      <td>CC(C)=CCCC(C)=CC(=O)</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Picene</td>\n",
+              "      <td>-6.618</td>\n",
+              "      <td>2</td>\n",
+              "      <td>278.354</td>\n",
+              "      <td>0</td>\n",
+              "      <td>5</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0.00</td>\n",
+              "      <td>-7.87</td>\n",
+              "      <td>c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Thiophene</td>\n",
+              "      <td>-2.232</td>\n",
+              "      <td>2</td>\n",
+              "      <td>84.143</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0.00</td>\n",
+              "      <td>-1.33</td>\n",
+              "      <td>c1ccsc1</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-47e95edb-90d3-4c46-960b-4b8a4d2096d4')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-47e95edb-90d3-4c46-960b-4b8a4d2096d4 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-47e95edb-90d3-4c46-960b-4b8a4d2096d4');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "summary": "{\n  \"name\": \"display(df\",\n  \"rows\": 5,\n  \"fields\": [\n    {\n      \"column\": \"Compound ID\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 5,\n        \"samples\": [\n          \"Fenfuram\",\n          \"Thiophene\",\n          \"citral\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ESOL predicted log solubility in mols per litre\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2.1188617935108462,\n        \"min\": -6.618,\n        \"max\": -0.974,\n        \"num_unique_values\": 5,\n        \"samples\": [\n          -2.885,\n          -2.232,\n          -2.579\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Minimum Degree\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 1,\n        \"max\": 2,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          2,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Molecular Weight\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 143.26840667676876,\n        \"min\": 84.143,\n        \"max\": 457.432,\n        \"num_unique_values\": 5,\n        \"samples\": [\n          201.225,\n          84.143\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Number of H-Bond Donors\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 3,\n        \"min\": 0,\n        \"max\": 7,\n        \"num_unique_values\": 3,\n        \"samples\": [\n          7,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Number of Rings\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1,\n        \"min\": 0,\n        \"max\": 5,\n        \"num_unique_values\": 5,\n        \"samples\": [\n          2,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Number of Rotatable Bonds\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2,\n        \"min\": 0,\n        \"max\": 7,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          2,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Polar Surface Area\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 85.61386207852091,\n        \"min\": 0.0,\n        \"max\": 202.32,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          42.24,\n          0.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"measured log solubility in mols per litre\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2.8473900329951287,\n        \"min\": -7.87,\n        \"max\": -0.77,\n        \"num_unique_values\": 5,\n        \"samples\": [\n          -3.3,\n          -1.33\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"smiles\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 5,\n        \"samples\": [\n          \"Cc1occc1C(=O)Nc2ccccc2\",\n          \"c1ccsc1\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "e5bf8c42"
+      },
+      "source": [
+        "### Import Libraries and Install RDKit\n",
+        "This cell ensures that the `rdkit` library is installed and then imports all necessary Python libraries for data manipulation (`pandas`), plotting (`matplotlib.pyplot`, `seaborn`), and cheminformatics (`rdkit.Chem`)."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Import needed libraries\n",
+        "! pip install rdkit\n",
+        "import pandas as pd\n",
+        "import matplotlib.pyplot as plt\n",
+        "import seaborn as sns\n",
+        "from rdkit import Chem"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "7mSGKI8BMwT4",
+        "outputId": "2af9cb2e-5db3-4228-d92c-98a1fc552104"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: rdkit in /usr/local/lib/python3.12/dist-packages (2026.3.5)\n",
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from rdkit) (2.0.2)\n",
+            "Requirement already satisfied: Pillow in /usr/local/lib/python3.12/dist-packages (from rdkit) (11.3.0)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cb9298be"
+      },
+      "source": [
+        "### Prepare DataFrame for Analysis\n",
+        "This cell creates a new DataFrame called `readydf` by selecting only the \"Compound ID\" and \"smiles\" columns from the original `df`. The `.copy()` method ensures that `readydf` is an independent DataFrame, preventing warnings when modifying it later."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "readydf= df[[\"Compound ID\",\"smiles\"]].copy()\n",
+        "readydf.head()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 206
+        },
+        "collapsed": true,
+        "id": "a9JwbltfNBjc",
+        "outputId": "8e0099f9-c1f9-4339-b98d-a763eac0feff"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "  Compound ID                                             smiles\n",
+              "0   Amigdalin  OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...\n",
+              "1    Fenfuram                             Cc1occc1C(=O)Nc2ccccc2\n",
+              "2      citral                               CC(C)=CCCC(C)=CC(=O)\n",
+              "3      Picene                 c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43\n",
+              "4   Thiophene                                            c1ccsc1"
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-22f8e1f4-f811-4d4f-b2c9-7cb6107628c0\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Compound ID</th>\n",
+              "      <th>smiles</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Amigdalin</td>\n",
+              "      <td>OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Fenfuram</td>\n",
+              "      <td>Cc1occc1C(=O)Nc2ccccc2</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>citral</td>\n",
+              "      <td>CC(C)=CCCC(C)=CC(=O)</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Picene</td>\n",
+              "      <td>c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Thiophene</td>\n",
+              "      <td>c1ccsc1</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-22f8e1f4-f811-4d4f-b2c9-7cb6107628c0')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-22f8e1f4-f811-4d4f-b2c9-7cb6107628c0 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-22f8e1f4-f811-4d4f-b2c9-7cb6107628c0');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "readydf",
+              "summary": "{\n  \"name\": \"readydf\",\n  \"rows\": 1128,\n  \"fields\": [\n    {\n      \"column\": \"Compound ID\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1128,\n        \"samples\": [\n          \"cis-2-Pentene\",\n          \"5-(3-Methyl-2-butenyl)-5-ethylbarbital\",\n          \"Terbacil\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"smiles\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1123,\n        \"samples\": [\n          \"O=N(=O)c1ccccc1N(=O)=O\",\n          \"CC(Cl)(Cl)Cl\",\n          \"c1(C#N)c(Cl)c(C#N)c(Cl)c(Cl)c(Cl)1\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 44
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9bdcd18b"
+      },
+      "source": [
+        "### Define SMILES to Molecule Conversion Function\n",
+        "This cell defines a helper function `check_safety_import_mol` that takes a SMILES string as input. It attempts to convert the SMILES string into an RDKit molecule object. If the input is not a valid string or the conversion fails, it returns `None`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def check_safety_import_mol(smi) :\n",
+        "    if not isinstance(smi, str) or smi.strip() == \"\" :\n",
+        "        return None\n",
+        "    try:\n",
+        "        mol= Chem.MolFromSmiles(smi)\n",
+        "        return  mol\n",
+        "    except Exception:\n",
+        "        return None\n"
+      ],
+      "metadata": {
+        "id": "NbwZktBYNcsl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "7cfa23ff"
+      },
+      "source": [
+        "### Create Molecule Objects\n",
+        "This cell applies the `check_safety_import_mol` function to the \"smiles\" column of `readydf`. The resulting RDKit molecule objects (or `None` for invalid SMILES) are stored in a new column called \"Mol\"."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "readydf[\"Mol\"] = readydf[\"smiles\"].apply(check_safety_import_mol)\n",
+        "print(readydf[[\"Compound ID\",\"smiles\",\"Mol\"]].head())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "10NombfhNujR",
+        "outputId": "7d5d546b-33ff-409f-f159-df832e8c57f0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "  Compound ID                                             smiles  \\\n",
+            "0   Amigdalin  OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...   \n",
+            "1    Fenfuram                             Cc1occc1C(=O)Nc2ccccc2   \n",
+            "2      citral                               CC(C)=CCCC(C)=CC(=O)   \n",
+            "3      Picene                 c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43   \n",
+            "4   Thiophene                                            c1ccsc1   \n",
+            "\n",
+            "                                                Mol  \n",
+            "0  <rdkit.Chem.rdchem.Mol object at 0x7be1a0c20dd0>  \n",
+            "1  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85690>  \n",
+            "2  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85d90>  \n",
+            "3  <rdkit.Chem.rdchem.Mol object at 0x7be19bd87ed0>  \n",
+            "4  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85e70>  \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "f82173d0"
+      },
+      "source": [
+        "### Define Functional Group SMARTS Patterns\n",
+        "This cell defines a dictionary named `functional_groups`. The keys are common names of functional groups (e.g., \"Hydroxyl\", \"Ketone\"), and the values are their corresponding SMARTS (SMiles ARbitrary Target Specification) patterns. These patterns are used by RDKit to identify specific substructures in molecules."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "functional_groups = {\n",
+        "      \"Primary_Amine\": \"[NH2]\",\n",
+        "      \"Hydroxyl\": \"[OH]\",\n",
+        "      \"Carboxylic_Acid\": \"C(=O)[OH]\",\n",
+        "      \"Ester\": \"C(=O)O[#6]\",\n",
+        "      \"Amide\": \"C(=O)[NH]\",\n",
+        "      \"Ketone\": \"[#6]C(=O)[#6]\",\n",
+        "      \"Aromatic_Ring\": \"c1ccccc1\",\n",
+        "      \"Halogen\": \"[F,Cl,Br,I]\"\n",
+        "}\n"
+      ],
+      "metadata": {
+        "id": "wPARqIsOOQX3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fb600288"
+      },
+      "source": [
+        "### Define Functional Group Detection Function\n",
+        "This cell defines the `find_all_functional_groups` function. It takes an RDKit molecule object and the `functional_groups` dictionary as input. For each functional group in the dictionary, it checks if the molecule contains that substructure using `Chem.MolFromSmarts` and `mol.HasSubstructMatch`. It returns a list of names of all functional groups found in the molecule."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def find_all_functional_groups(mol , functional_groups) :\n",
+        "\n",
+        "     found_groups= [ ]\n",
+        "     for name, fg in functional_groups.items():\n",
+        "         fgstru = Chem.MolFromSmarts(fg)\n",
+        "         if fgstru is None :\n",
+        "            continue\n",
+        "         has_sub = mol.HasSubstructMatch(fgstru)\n",
+        "         if has_sub :\n",
+        "            found_groups.append(name)\n",
+        "     return found_groups"
+      ],
+      "metadata": {
+        "id": "3O7EHosOOkWX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ca23d263"
+      },
+      "source": [
+        "### Identify Functional Groups in Compounds\n",
+        "This cell applies the `find_all_functional_groups` function to each molecule in the \"Mol\" column of `readydf`. The list of functional groups identified for each compound is then stored in a new column called \"Functional_Groups\"."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "readydf[\"Functional_Groups\"] = readydf[\"Mol\"].apply(lambda m : find_all_functional_groups(m , functional_groups))\n",
+        "\n",
+        "print(readydf[[\"Compound ID\" , \"smiles\", \"Mol\" , \"Functional_Groups\"]].head(10))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "BVR1ZoMmPGWR",
+        "outputId": "57fa3e75-08ed-4597-b7f5-27b685c48719"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "      Compound ID                                             smiles  \\\n",
+            "0       Amigdalin  OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...   \n",
+            "1        Fenfuram                             Cc1occc1C(=O)Nc2ccccc2   \n",
+            "2          citral                               CC(C)=CCCC(C)=CC(=O)   \n",
+            "3          Picene                 c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43   \n",
+            "4       Thiophene                                            c1ccsc1   \n",
+            "5   benzothiazole                                      c2ccc1scnc1c2   \n",
+            "6  2,2,4,6,6'-PCB                 Clc1cc(Cl)c(c(Cl)c1)c2c(Cl)cccc2Cl   \n",
+            "7       Estradiol                   CC12CCC3C(CCc4cc(O)ccc34)C2CCC1O   \n",
+            "8        Dieldrin     ClC4=C(Cl)C5(Cl)C3C1CC(C2OC12)C3C4(Cl)C5(Cl)Cl   \n",
+            "9        Rotenone    COc5cc4OCC3Oc2c1CC(Oc1ccc2C(=O)C3c4cc5OC)C(C)=C   \n",
+            "\n",
+            "                                                Mol          Functional_Groups  \n",
+            "0  <rdkit.Chem.rdchem.Mol object at 0x7be1a0c20dd0>  [Hydroxyl, Aromatic_Ring]  \n",
+            "1  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85690>     [Amide, Aromatic_Ring]  \n",
+            "2  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85d90>                         []  \n",
+            "3  <rdkit.Chem.rdchem.Mol object at 0x7be19bd87ed0>            [Aromatic_Ring]  \n",
+            "4  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85e70>                         []  \n",
+            "5  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85d20>            [Aromatic_Ring]  \n",
+            "6  <rdkit.Chem.rdchem.Mol object at 0x7be19bd87df0>   [Aromatic_Ring, Halogen]  \n",
+            "7  <rdkit.Chem.rdchem.Mol object at 0x7be19bd87b50>  [Hydroxyl, Aromatic_Ring]  \n",
+            "8  <rdkit.Chem.rdchem.Mol object at 0x7be19bd844a0>                  [Halogen]  \n",
+            "9  <rdkit.Chem.rdchem.Mol object at 0x7be19bd87300>    [Ketone, Aromatic_Ring]  \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5d5d4c6d"
+      },
+      "source": [
+        "### Count Functional Group Occurrences\n",
+        "This cell first 'explodes' the list of functional groups in the \"Functional_Groups\" column so that each individual functional group gets its own row. Then, it counts the occurrences of each unique functional group and stores these counts in a new DataFrame called `group_counts`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "all_groups = readydf[\"Functional_Groups\"].explode()\n",
+        "group_counts = all_groups.value_counts().reset_index()\n",
+        "group_counts.columns= [\"Functional_Groups\", \"count\"]\n",
+        "print(group_counts)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "PHxmgYoARy6F",
+        "outputId": "c50088b4-5e2c-4956-a6dd-d25f5478a937"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "  Functional_Groups  count\n",
+            "0     Aromatic_Ring    565\n",
+            "1           Halogen    332\n",
+            "2          Hydroxyl    242\n",
+            "3             Amide    154\n",
+            "4             Ester    135\n",
+            "5            Ketone     86\n",
+            "6     Primary_Amine     76\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5340b5cf"
+      },
+      "source": [
+        "### Visualize Functional Group Counts\n",
+        "This cell generates a bar plot using `seaborn` and `matplotlib` to visualize the counts of each functional group. It sets the plot's title and axis labels, ensures a tight layout, saves the plot as a PNG image, and then displays it."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "plt.figure (figsize=(10, 8))\n",
+        "\n",
+        "sns.barplot(x=\"Functional_Groups\" , y=\"count\" , data=group_counts , color=\"green\")\n",
+        "plt.title(\"Count of each Functional group\" , fontsize=22 , weight=\"bold\")\n",
+        "plt.xlabel(\"Functional Group\" , fontsize= 18)\n",
+        "plt.ylabel(\"Count\" , fontsize= 18)\n",
+        "plt.tight_layout()\n",
+        "\n",
+        "plt.savefig(\"Count of each Functional group\" ,dpi=300 )\n",
+        "plt.show()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 807
+        },
+        "collapsed": true,
+        "id": "h150M6ylR5sq",
+        "outputId": "3e130794-99a2-42f7-e06a-29fbce9ac3b9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 1000x800 with 1 Axes>"
+            ],
+            "image/png": "iVBORw0KGgoAAAANSUhEUgAAA90AAAMWCAYAAADs4eXxAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjAsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvlHJYcgAAAAlwSFlzAAAPYQAAD2EBqD+naQAAdEVJREFUeJzt3Xd4FdXe9vE7vZJChITQQpEqTVCIqCAEAQEFsYCKIAjKAypF5eDDkeI54MGC6KEdRMAKR0QUFKRIUSkC0puANIVQUwhCClnvH77ZD5vsHRKSlRD4fq5rX1cys2bmN7Nnl3vPzBoPY4wRAAAAAAAocJ5FXQAAAAAAANcrQjcAAAAAAJYQugEAAAAAsITQDQAAAACAJYRuAAAAAAAsIXQDAAAAAGAJoRsAAAAAAEsI3QAAAAAAWELoBgAAAADAEkI3ACBX0tPTNXXqVLVt21blypVTQECAPDw8nB6bN28u6jKvaTExMdm22YgRI4q6LBSCESNGZHvuY2Jiirqsa87l28jDw0MzZswo6rIAIF+8i7oAAMXDhg0btGTJEv3www/at2+fzpw5o6SkJPn7++umm25SjRo1dPvtt6t169aKjY2Vh4dHUZd8zVmxYoVWrFjhNCwsLEwDBgwoknry4syZM4qLi9OmTZuKuhTkw4wZM/TUU09d9fQHDhy44YPivHnzsv24FBMTox49ehRJPQCAax+hG0COFi1apNdee02rV692OT4lJUUpKSk6ePCgFi1apFGjRqlq1aqaOnWqmjdvXrjFXuNWrFihkSNHOg2rWLFisQjdQ4YMIXAD+it0z5w502lYs2bNCN0AALcI3QBcSk1N1eDBgzVhwoQ8T7tv3z5t3ryZ0H2duHjxov773/+6HBcTE6OIiAjH/4GBgYVVFlCsREdHq2HDhtmGAQCuf4RuANlcvHhRnTt31jfffOO2TUhIiKKjo+Xh4aGTJ0/q1KlThVghCtOpU6eUnJycbfgbb7yhF198sQgqQkG7/McTd/z8/AqhmutTnz591KdPn6IuAwBQBAjdALIZOHCg28DduXNnvfzyy2rUqJE8Pf+vL8YjR45o0aJF+s9//qMNGzYUVqkoBOfPn3c5vFGjRoVcCWwZPnw4p0cDAGAJvZcDcLJ161a3p5RPnDhRc+bM0e233+4UuCWpfPny6t27t9avX6+vvvrqip0trV69WgMHDtTtt9+uqKgo+fn5qUSJEoqJidH999+vt99+W6dPn85xHjNmzHDZ0607ue0Vt0ePHtnaZZ0qn5qaqvfee0933XWXSpUqJT8/P1WoUEHdunXT1q1bs83r4MGDjnlcfj23JB06dMhab73Hjx/X2LFj1a5dO8XExKhEiRLy8/NTmTJl1KRJEw0ePDjHH0iaN28uDw8PVapUyeX4e+65x+U2yo+9e/dq+PDhatGihcqVK6fAwEAFBQWpYsWKeuCBBzR58mS3PwJkycjI0Jo1azRhwgT16tVLd9xxh6pXr67SpUvL19dXQUFBio6O1l133aWBAwdq7dq1eaoxMTFREyZM0COPPKKbb75ZJUuWlK+vr6KiolSvXj099NBDevfdd/X777/nab6nT5/WyJEj1aBBA4WGhiooKEi1atXSSy+9pBMnTuRpXoUhL71xX/o6uPRxeceC0v/td5c+sn4QSEpK0ujRo3XbbbcpPDxcAQEBqlq1qp599lkdOHAg17Xv379fo0aNUps2bVSxYkWFhITI399fFSpU0G233aZevXrpk08+0dmzZyX91R9DVi2XX88tSStXrrzi+l1t7+Xbt2/X0KFDdddddyk6Olr+/v4KCgpS+fLlde+99+of//jHFfe1K23/X375Rb1791aVKlUUEBCgsLAwxcbG6p133lFaWprb+Z4/f14rV67UuHHj1K1bNzVu3Fg333yzbrrpJvn4+KhEiRIqV66cWrZsqaFDh2rHjh1XXF+bUlJSNHr0aDVs2FChoaEqUaKEateurZdfflmHDx+WlPvn6UrbdMmSJerSpYsqVqwof39/t/u7VHw/D8+fP69x48bpjjvu0E033SR/f39VqVJFzz77rHbt2pVjvcANxwDAJTp37mwkZXs8//zzBTL/3377zdx9990ul3H5IzAw0PzjH/8wFy9edDmv6dOnu5zOHVdtp0+fnq1d9+7ds7Vr1qyZ2bRpk6latarber29vc3HH3/sNK8DBw7kal1zU1dupaenm6FDhxo/P79cLat169bmjz/+yDafZs2a5anmZs2aXXXNiYmJ5oknnjCenp5XXE5kZKSZO3eu23lt27Ytz9u7TZs25tixY1fcrsOHDzeBgYG5mmf37t2zzaNixYrZ2g0fPtx8++23plSpUm7nVbp0abN169ar3r5Z3L1mrmZ/Gz58eLb5VKxY0WVbd6+D5cuXZ2vrar/r3r27WbJkiYmKinK7jYKCgsyyZctyrPnUqVOmS5cuudrPLt0uy5cvv6rX8aXrl5ftZYwxJ06cMJ06dcrVcnx8fMzzzz9vLly4kKftv2zZMjN48OAct0eTJk1MYmKiy/nOnz8/z9ukW7duJjk52e16F9T+eblNmzaZcuXKua2rRIkSZtasWbl+nnLapk8//XSu9vfi/Hm4detWU6VKFbf1+vr6mvfeey8vTxFwXeNINwCH1NRULVq0KNvwgIAAvfrqq/me/y+//KIGDRpo1apVuWr/559/atiwYercubMuXryY7+Xnx/79+9W8eXPt27fPbZuMjAw9/fTT2rt3byFW5iwtLU1t2rTRmDFjlJqamqtpvvvuO9WvX1+7d++2XJ1r8fHxatSokT7++GNlZmZesf3x48fVuXNnjR8/vsBqWLRokdq0aaM///zT5fjz588rLi5OI0eOdNvmai1evFgPPPCATp486bbNiRMn9Mgjjyg9Pb1Al11crF69Wu3atVN8fLzbNufOnVOXLl105swZl+P37dununXratasWbnaz4rSoUOHdOutt+rLL7/MVfv09HS9++67at68eZ72z+eff15vvfVWjttj7dq1GjRoUK7neSUfffSRHn744UJ9Dvbv36+WLVvmeEbA2bNn9fjjj+u7777L17KGDBmi999//4rtivPn4ZEjR9SyZUvt37/fbZu0tDQ999xzmjZtWiFWBly7CN0AHFavXq1z585lGx4XF5erTpZycubMGbVv315JSUnZxvn5+al27dqqUKGCy2nnzZun//3f/83X8vPr999/d9QeGRmpWrVqZTvFXpIuXLigd955x/G/n5+fGjZsqIYNG6pMmTLZ2vv6+jrGX/q46aabrqrO5557TsuWLXM5LiYmRrVr15aPj0+2cSdPnlS7du2cvrBXr15dDRs2VJ06dVzOr1q1ak41V69ePc/1Xrx4UR06dHD5Y0ZAQICqV6+umJgYeXl5OY0zxmjQoEFu1/VSISEhqlatmurXr686deqodOnSLttt2bLF7aUVPXr00MqVK12O8/b2VvXq1VWnTh2VLFnyivVcbs2aNY4wXaVKFVWuXNllu927d2vevHl5nn9uPPXUUy5PN730MWLECCvLzo29e/c6TnMuX768233t5MmTLr/kp6SkqHXr1jp69KjL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++47t/caP3v2rLZv365du3ZlO3Phcvfdd5/LTsrS09O1Z88ex+vY1enLueHr66sFCxa4rDUjI0M7d+7Uvn37XE572223afr06Ve13Lzq0aOH297Pjxw5oh07dig9PV0eHh56/vnnC6Umd6ZPn+6yt3pjjH799Vf9+uuvMsbI19fX5S2/CrpTw+L+eVirVi3H6eJ//PGHtm/f7vZymvHjx7u9MwpwIyF0A3ApICBAU6ZM0YIFC9SkSZM8TVulShWX9x6+7bbbtHHjRjVt2jTXNYwYMUJfffWVy2tyJenJJ59U3759c5xPq1atXF73WNi8vLz0n//854q92+aHn5+fFi9erJdfftltxzqXa9mypTZv3lxkwahMmTLauHGjevTo4fZ5diUiIkJdunRxGubp6akvv/xS1atXdzudp6enRo4c6TYwuhIQEKClS5dq+PDhueoV+kYxdOhQ3X///Tm2eeyxx/TFF18UUkXuVa1aVVu2bNGjjz7q8jKM3AoLC9N7772Xr3lcSaVKlbRp06Yrbtss3t7e6tevn1atWlVoP5wFBwdrwYIFKlOmjNs2/v7+mjp1qjp16lQoNblTuXJlLVu2LMcO5sLCwjRnzhyXn3euwnF+FefPw1KlSmnp0qWqW7eu2zY+Pj5677331KtXr3wtC7heXD83AQVgRbt27dSuXTutX79eixcv1o8//qi9e/cqISFBSUlJ8vf3V0REhKpXr67bbrtNbdu2VdOmTd0eGahatap+/PFH/fjjj/r888+1evVqHT58WAkJCfL19VVERITq1Kmje+65R927d3fZc/TlJk6cqDZt2mjy5MnasGGDEhMTFRERodtvv109evQo8i98l2rTpo02btyo8ePHa9WqVTpy5EiBdqYm/fVl51//+pcGDhyomTNnasWKFdqxY4fOnDmj9PR0hYWFKSYmRk2bNlWXLl10++23F+jyr0ZoaKimT5+ukSNH6qOPPtKPP/6oHTt2KCEhQefPn1dwcLBKly6tatWqqWHDhmrRooXuuOMO+fj4ZJtXhQoVtHHjRk2cOFGff/65du3apYyMDJUpU0Z33XWX+vbtqyZNmlyxE63LeXt7a8SIERowYIA+/vhjrVy5Ups3b9apU6eUkpKikiVLKjIyUrVr11arVq1c3gngeuPj46Mvv/xSH330kWbMmKEtW7bo3LlzioyMVNOmTdWnTx/dc889ed7Wttx0002aNWuW/vnPf+qTTz7RTz/9pF27dikhIUFpaWkqXbq0oqKidNttt6lVq1YuO9GT/rpmumbNmpowYYLWrFmjY8eOOc6gKCilS5fWV199pa1bt+qTTz7Rjz/+qN9++00JCQny9PRUyZIlVaNGDTVr1kzdu3d32yu2TfXr19e2bds0fvx4ffXVV44j8GXLllVcXJz69++vWrVqXRN9atSvX187d+7Uu+++qzlz5jhqrVChgtq3b6/nn39eZcuWder/IUtUVJSVmorz52HlypW1fv16TZ06VbNmzdLu3bt19uxZRUdHq1WrVhowYIBq1qxZIMsCrgcexlzWGxIAAABwg9m3b59uueWWbLfDeu211zRs2LAiqqpo9ejRI9sPEc2aNbsmfkgBihNOLwcAAMB1rWXLlho/frx2796d7e4bqampmjNnjlq0aJEtcHt5eemRRx4pzFIBXIc4vRwAAADXtXXr1un777+XJAUGBqp8+fIKCAjQuXPndPDgQaWnp7uc7n/+539UrVq1wiwVwHWI0A0AAIAbxp9//qk9e/ZcsV27du301ltvFUJFAK53nF4OAACA61pebvtVokQJjR07Vl999ZXLzhoBIK840g0AAIDr2p49ezR//nz98MMP2rp1q37//XedPXtWnp6eCg0NVZkyZdSgQQPdc889euihhwrt1msAbgz0Xg4AAAAAgCUc6c6DzMxMHT16VCVKlMjTaUoAAAAAgOuLMcZxj3pPT/dXbhO68+Do0aMqX758UZcBAAAAALhGHDlyROXKlXM7ntCdByVKlJD010YNCQkp4moAAAAAAEUlOTlZ5cuXd+REdwjdeZB1SnlISAihGwAAAABwxUuPuWUYAAAAAACWELoBAAAAALCE0A0AAAAAgCWEbgAAAAAALCF0AwAAAABgCaEbAAAAAABLCN0AAAAAAFhC6AYAAAAAwBJCNwAAAAAAlhC6AQAAAACwhNANAAAAAIAlhG4AAAAAACwhdAMAAAAAYAmhGwAAAAAASwjdAAAAAABYQugGAAAAAMASQjcAAAAAAJYQugEAAAAAsITQDQAAAACAJYRuAAAAAAAsIXQDAAAAAGAJoRsAAAAAAEsI3QAAAAAAWELoBgAAAADAEkI3AAAAAACWELoBAAAAALCE0A0AAAAAgCWEbgAAAAAALCF0AwAA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LVpoy5YtNlcdOfDz81NUVJTTIzw8XMYYjRgxQhUqVJCfn5+io6P1/PPPS/rreT906JAGDhzoOFqX5ccff9Rdd92lgIAAlS9fXs8//7zOnTvnGB8TE6PXXntNTz75pEJCQorFEarrzdixY/Xcc89p1qxZeuqppyTl/DkdExMjSerUqZM8PDwc/0vSpEmTVKVKFfn6+qp69er66KOPnJaVm8/37du3q23btgoODlZkZKS6deumU6dO2dsA14is117FihXVt29fxcXF6euvv3Z8z/3nP/+p6OhoVa9eXVL2s0s8PDw0ZcoUtW/fXoGBgapZs6bWrFmjffv2qXnz5goKCtIdd9zh9N1+//79euCBBxQZGang4GDddtttWrp0qVNdrl6jLVq0yHbL5ZMnT8rX1zfXZ6MeOHBAq1ev1t/+9jdVq1ZNc+fOdRo/Y8YMhYWFacGCBapevboCAwP10EMP6c8//9TMmTMVExOj8PBwPf/887p48aJTvZdvl2tynzMoVNOmTTONGjUyxhgzf/58U6VKFZOZmWmMMWb58uVGkqlbt65ZvHix2bdvnzl9+rR5/vnnTXR0tPn222/Njh07TPfu3U14eLg5ffq003RNmjQxP/74o/nll19M1apVTbNmzcy9995rfvnlF7Nq1SoTERFhXn/9dUctc+bMMV988YXZu3ev2bRpk+nQoYOpU6eOuXjxojHGmJ9//tlIMkuXLjXHjh1zLK979+7mgQcecMzn5ZdfNuHh4WbGjBlm37595ocffjBTp07N1faQZL788ktjjDHp6elm3LhxRpKZNGmSo83w4cNNvXr1HP93797dhISEmGeffdbs2rXLzJ8/3wQGBpr//Oc/jjZxcXGmfv36Zu3atWbjxo2mWbNmJiAgwIwbNy53T1Qxc/lzkiVr30hISDC///67eeONN8ymTZvM/v37zbvvvmu8vLzMunXrHO2bNWtmXnjhBcf/999/v6lZs6ZZtWqV2bx5s2ndurWpWrWqSUtLM8YY8+OPPxpPT0/zxhtvmD179pgJEyaYkiVLmtDQUMc8Vq1aZUJCQsyMGTPM/v37zeLFi01MTIwZMWKEo40kU65cOfPpp5+avXv3mueff94EBwc79jm4l5vnvnfv3ua+++5zGn///febJ5980hhjzNmzZ02pUqXMY489ZrZv327mz59vKleubCSZTZs2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KpA6UHACAgLUoUMHvfvuu1qxYoXWrFnjuLuIr69vtu8Ht956q3bu3Ony/T43R+1gX8WKFbVy5UrFx8erTZs2Onv2bK4+p318fLI93zVr1nR6/5f++q6Rl++nt956q3bs2KGYmJhsy77ef5zJ+sGrQoUKToHbpp9++kk9evRQp06dVKdOHUVFRengwYO5mrZOnTpq1KiRpk6dqk8//VQ9e/bM1XSnT5/WV199pVmzZjl9Bm3atEkJCQlavHhxPtYo74pqn+MbbyFZsGCBEhIS1KtXL91yyy1Oj86dO2c7xS9LUFCQ+vbtq5deekmLFi3Szp071bt3b/3555/q1avXVdcTHh6uiIgI/ec//9G+ffv0/fffa9CgQU5tSpcurYCAAC1atEjHjx9XUlJStvn4+/tryJAhevnll/Xhhx9q//79Wrt2rdv1yY0BAwZoypQp+uOPP65q+ho1aiguLk59+vTRzz//rE2bNqlPnz4KCAi4oY+e3XzzzVqyZIlWr16tXbt26ZlnntHx48dzbP/AAw+od+/e+vHHH7VlyxY98cQTKlu2rB544AFJ0nPPPadvv/1Wb7/9tvbu3aspU6Zo4cKFTtv51Vdf1YcffqiRI0dqx44d2rVrl2bNmqVhw4ZZX2f8n/DwcD344IN66aWXdO+996pcuXKOcY899pg8PDzUu3dv7dy5U99++63efPPNK84zN+9PEyZM0Jo1azRz5kw9/vjj6tixox5//HGnX9Vzqg35d7WfP3lVvXp1tWnTRs8884zWrVunjRs36umnn3Y6shEXF6fY2Fh17NhRixcv1sGDB7V69Wr97//+rzZs2FAgdSBvUlNTFR8f7/Q4deqUZsyYoWnTpmn79u367bff9PHHHysgIMBxZCsmJkarVq3SH3/84ej1d8iQIVq9erX69++vzZs3a+/evfrqq6+y9XqMolW+fHmtWLFCJ06cUOvWrR3f4XL6nI6JidGyZcsUHx/vOIjx0ksvacaMGZo0aZL27t2rt99+W3PnztWLL76Y61r69eunM2fOqGvXrlq/fr3279+v7777Tk899VSOB31wdW6++WbNnTvX8cPrY489lqezl55++mm9/vrrMsaoU6dOuZrmo48+UkREhB555BGnz5969erpvvvuK7DPoNwqqn2O0F1Ipk2bpri4OIWGhmYb17lzZ23YsEFbt251Oe3rr7+uzp07q1u3brr11lu1b98+fffdd/m6RtnT01OzZs3Sxo0bdcstt2jgwIHZ7g3o7e2td999V1OmTFF0dLQjaF3u73//uwYPHqxXX31VNWvW1KOPPpqva3HbtGmjSpUq5eto94cffqjIyEjdfffd6tSpk3r37q0SJUoUyGlSxdWwYcN06623qnXr1mrevLmioqKcbv3myvTp09WwYUO1b99esbGxMsbo22+/dZy207RpU02ePFlvv/226tWrp0WLFmngwIFO27l169ZasGCBFi9erNtuu01NmjTRuHHjcn1KEgpOr169lJaWlu3X6eDgYM2fP1/btm1TgwYN9L//+78uT7tyJaf3p927d+ull17SxIkTVb58eUnSxIkTderUKf3973/PVW3Iv/x8/uTV9OnTFR0drWbNmunBBx9Unz59nC4V8vDw0Lfffqu7775bTz31lKpVq6YuXbro0KFDjusRUbgWLVqkMmXKOD2ybic6depUNW3aVHXr1tXSpUs1f/58R58Mo0aN0sGDB1WlShWVKlVK0l/XUa5cuVK//vqr7rrrLjVo0ECvvvqq02UNuDaUK1dOK1as0KlTp/T6669rzpw5OX5Ov/XWW1qyZInKly+vBg0aSJI6duyo8ePH680331Tt2rU1ZcoUTZ8+3XGL2dyIjo7WTz/9pIsXL+ree+9VnTp1NGDAAIWFhXE2nAVvv/22wsPDdccdd6hDhw5q3bq1Ux9IV9K1a1d5e3ura9euuf5O/cEHHzhuN3e5zp076+uvvy7UW8QV1T7n8f97eQOua7///rvKly+vpUuX5qvTN1xZ7969tXv3bv3www9FXQou89FHH2ngwIE6evToNXeq57VcGwAAkOOHtvXr1+cprIOO1HCd+v7775WSkqI6dero2LFjevnllxUTE0OPyBa8+eabatWqlYKCgrRw4ULNnDlTEydOLOqycIk///xTx44d0+uvv65nnnnmmgq113JtAADgr/5aTp8+rWHDhqlJkyYE7qvAeRuwZvTo0U7d8V/6aNu2rdVlp6en65VXXlHt2rXVqVMnlSpVSitWrHDb4yqu3s8//6xWrVqpTp06mjx5st599109/fTTRV0WLjF27FjVqFFDUVFRGjp0aFGX4+Rarg0AAPzVAVuZMmW0fv16TZ482WncDz/84Pb7/qW3+rrRcXo5rDlz5ozOnDnj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\n"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "443c5256"
+      },
+      "source": [
+        "### Export Final Analysis Report\n",
+        "This cell saves the `readydf` DataFrame, which now includes the identified functional groups, to a CSV file named `Final_Analysis_Report.csv`. The `index=False` argument prevents pandas from writing the DataFrame index as a column in the CSV. It also prints a confirmation message and displays the head of the DataFrame."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "768c9b7c",
+        "outputId": "437c91c3-8b26-4a71-f273-58ad2caa4af1"
+      },
+      "source": [
+        "readydf.to_csv(\"Final_Analysis_Report.csv\", index=False)\n",
+        "\n",
+        "print(\"DataFrame saved to Final_Analysis_Report.csv\")\n",
+        "print(readydf.head())"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "DataFrame saved to Final_Analysis_Report.csv\n",
+            "  Compound ID                                             smiles  \\\n",
+            "0   Amigdalin  OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)...   \n",
+            "1    Fenfuram                             Cc1occc1C(=O)Nc2ccccc2   \n",
+            "2      citral                               CC(C)=CCCC(C)=CC(=O)   \n",
+            "3      Picene                 c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43   \n",
+            "4   Thiophene                                            c1ccsc1   \n",
+            "\n",
+            "                                                Mol          Functional_Groups  \n",
+            "0  <rdkit.Chem.rdchem.Mol object at 0x7be1a0c20dd0>  [Hydroxyl, Aromatic_Ring]  \n",
+            "1  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85690>     [Amide, Aromatic_Ring]  \n",
+            "2  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85d90>                         []  \n",
+            "3  <rdkit.Chem.rdchem.Mol object at 0x7be19bd87ed0>            [Aromatic_Ring]  \n",
+            "4  <rdkit.Chem.rdchem.Mol object at 0x7be19bd85e70>                         []  \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "96333a7b"
+      },
+      "source": [
+        "### Download Analysis Report\n",
+        "This cell uses the `files.download` function from `google.colab` to initiate the download of the `Final_Analysis_Report.csv` file directly to my local machine."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 17
+        },
+        "collapsed": true,
+        "id": "2e2dd602",
+        "outputId": "a2224a79-43dc-437b-92c0-cc8a15488c57"
+      },
+      "source": [
+        "from google.colab import files\n",
+        "files.download('Final_Analysis_Report.csv')"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.Javascript object>"
+            ],
+            "application/javascript": [
+              "\n",
+              "    async function download(id, filename, size) {\n",
+              "      if (!google.colab.kernel.accessAllowed) {\n",
+              "        return;\n",
+              "      }\n",
+              "      const div = document.createElement('div');\n",
+              "      const label = document.createElement('label');\n",
+              "      label.textContent = `Downloading \"${filename}\": `;\n",
+              "      div.appendChild(label);\n",
+              "      const progress = document.createElement('progress');\n",
+              "      progress.max = size;\n",
+              "      div.appendChild(progress);\n",
+              "      document.body.appendChild(div);\n",
+              "\n",
+              "      const buffers = [];\n",
+              "      let downloaded = 0;\n",
+              "\n",
+              "      const channel = await google.colab.kernel.comms.open(id);\n",
+              "      // Send a message to notify the kernel that we're ready.\n",
+              "      channel.send({})\n",
+              "\n",
+              "      for await (const message of channel.messages) {\n",
+              "        // Send a message to notify the kernel that we're ready.\n",
+              "        channel.send({})\n",
+              "        if (message.buffers) {\n",
+              "          for (const buffer of message.buffers) {\n",
+              "            buffers.push(buffer);\n",
+              "            downloaded += buffer.byteLength;\n",
+              "            progress.value = downloaded;\n",
+              "          }\n",
+              "        }\n",
+              "      }\n",
+              "      const blob = new Blob(buffers, {type: 'application/binary'});\n",
+              "      const a = document.createElement('a');\n",
+              "      a.href = window.URL.createObjectURL(blob);\n",
+              "      a.download = filename;\n",
+              "      div.appendChild(a);\n",
+              "      a.click();\n",
+              "      div.remove();\n",
+              "    }\n",
+              "  "
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.Javascript object>"
+            ],
+            "application/javascript": [
+              "download(\"download_fa83880b-becd-423a-a68d-808e16aeb14c\", \"Final_Analysis_Report.csv\", 121778)"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    }
+  ]
+}
