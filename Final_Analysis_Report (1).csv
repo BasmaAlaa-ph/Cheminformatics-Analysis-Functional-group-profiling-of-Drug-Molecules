@@ -1,0 +1,1129 @@
+Compound ID,smiles,Mol,Functional_Groups
+Amigdalin,OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)C(O)C3O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351582e0>,"['Hydroxyl', 'Aromatic_Ring']"
+Fenfuram,Cc1occc1C(=O)Nc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535158430>,"['Amide', 'Aromatic_Ring']"
+citral,CC(C)=CCCC(C)=CC(=O),<rdkit.Chem.rdchem.Mol object at 0x7fc5351584a0>,[]
+Picene,c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43,<rdkit.Chem.rdchem.Mol object at 0x7fc535158510>,['Aromatic_Ring']
+Thiophene,c1ccsc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535158580>,[]
+benzothiazole,c2ccc1scnc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351585f0>,['Aromatic_Ring']
+"2,2,4,6,6'-PCB",Clc1cc(Cl)c(c(Cl)c1)c2c(Cl)cccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535158660>,"['Aromatic_Ring', 'Halogen']"
+Estradiol,CC12CCC3C(CCc4cc(O)ccc34)C2CCC1O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351586d0>,"['Hydroxyl', 'Aromatic_Ring']"
+Dieldrin,ClC4=C(Cl)C5(Cl)C3C1CC(C2OC12)C3C4(Cl)C5(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535158740>,['Halogen']
+Rotenone,COc5cc4OCC3Oc2c1CC(Oc1ccc2C(=O)C3c4cc5OC)C(C)=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351587b0>,"['Ketone', 'Aromatic_Ring']"
+2-pyrrolidone,O=C1CCCN1,<rdkit.Chem.rdchem.Mol object at 0x7fc535158820>,['Amide']
+2-Chloronapthalene,Clc1ccc2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535158890>,"['Aromatic_Ring', 'Halogen']"
+1-Pentene,CCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535158900>,[]
+Primidone,CCC1(C(=O)NCNC1=O)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535158970>,"['Amide', 'Aromatic_Ring']"
+Tetradecane,CCCCCCCCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535158a50>,[]
+2-Chloropropane,CC(C)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535158ac0>,['Halogen']
+2-Methylbutanol,CCC(C)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535158b30>,['Hydroxyl']
+Benzonitrile,N#Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535158ba0>,['Aromatic_Ring']
+Diazinon,CCOP(=S)(OCC)Oc1cc(C)nc(n1)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535158c10>,[]
+2-Undecanol,CCCCCCCCCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535158c80>,['Hydroxyl']
+"2,2',3,4,6-PCB",Clc1ccc(c(Cl)c1)c2c(Cl)ccc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535158cf0>,"['Aromatic_Ring', 'Halogen']"
+Lenacil,O=c2[nH]c1CCCc1c(=O)n2C3CCCCC3,<rdkit.Chem.rdchem.Mol object at 0x7fc535158d60>,[]
+Phorate,CCOP(=S)(OCC)SCSCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535158dd0>,[]
+Phenacetin,CCOc1ccc(NC(=O)C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535158e40>,"['Amide', 'Aromatic_Ring']"
+Dinitramine,CCN(CC)c1c(cc(c(N)c1N(=O)=O)C(F)(F)F)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535158eb0>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+1-Heptanol,CCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535158f20>,['Hydroxyl']
+Theophylline,Cn1c(=O)n(C)c2nc[nH]c2c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535158f90>,[]
+Butethal,CCCCC1(CC)C(=O)NC(=O)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535159000>,['Amide']
+"P,P'-DDE",ClC(Cl)=C(c1ccc(Cl)cc1)c2ccc(Cl)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535159070>,"['Aromatic_Ring', 'Halogen']"
+Methyl octanoate,CCCCCCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351590e0>,['Ester']
+"1,4-Diethylbenzene ",CCc1ccc(CC)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535159150>,['Aromatic_Ring']
+Terbufos,CCOP(=S)(OCC)SCSC(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351591c0>,[]
+Phenmedipham,COC(=O)Nc1cccc(OC(=O)Nc2cccc(C)c2)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535159230>,"['Ester', 'Amide', 'Aromatic_Ring']"
+"1,1-Dichloroethylene",ClC(=C)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351592a0>,['Halogen']
+1-Methylfluorene,Cc1cccc2c1Cc3ccccc32,<rdkit.Chem.rdchem.Mol object at 0x7fc535159310>,['Aromatic_Ring']
+Valeraldehyde,CCCCC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535159380>,[]
+Diphenylamine,N(c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351593f0>,['Aromatic_Ring']
+Fenothiocarb,CN(C)C(=O)SCCCCOc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535159460>,['Aromatic_Ring']
+Piperophos,CCCOP(=S)(OCCC)SCC(=O)N1CCCCC1C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351594d0>,[]
+1-Iodoheptane,CCCCCCCI,<rdkit.Chem.rdchem.Mol object at 0x7fc535159540>,['Halogen']
+3-Chlorobiphenyl,c1c(Cl)cccc1c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351595b0>,"['Aromatic_Ring', 'Halogen']"
+4-Pentene-1-ol,OCCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535159620>,['Hydroxyl']
+Cyclobutyl-5-spirobarbituric acid,O=C2NC(=O)C1(CCC1)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc535159690>,['Amide']
+menthol,CC(C)C1CCC(C)CC1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535159700>,['Hydroxyl']
+Isopropyl formate,CC(C)OC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535159770>,['Ester']
+2-Heptanol,CCCCCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351597e0>,['Hydroxyl']
+p-Bromoacetanilide,CC(=O)Nc1ccc(Br)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351598c0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+brompyrazone,c1ccccc1n2ncc(N)c(Br)c2(=O),<rdkit.Chem.rdchem.Mol object at 0x7fc535159850>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+nifedipine,COC(=O)C1=C(C)NC(=C(C1c2ccccc2N(=O)=O)C(=O)OC)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535159930>,"['Ester', 'Aromatic_Ring']"
+"2,7-dimethylquinoline",c2c(C)cc1nc(C)ccc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351599a0>,['Aromatic_Ring']
+1-Octyne,CCCCCCC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535159a10>,[]
+cyclobarbital,CCC1(C(=O)NC(=O)NC1=O)C2=CCCCC2,<rdkit.Chem.rdchem.Mol object at 0x7fc535159a80>,['Amide']
+Chrysene,c1ccc2c(c1)ccc3c4ccccc4ccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535159af0>,['Aromatic_Ring']
+Bromacil,CCC(C)n1c(=O)[nH]c(C)c(Br)c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535159b60>,['Halogen']
+"2,2',3,3',5,6-PCB",Clc1cccc(c1Cl)c2c(Cl)c(Cl)cc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535159bd0>,"['Aromatic_Ring', 'Halogen']"
+2-Methylphenol,Cc1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535159c40>,"['Hydroxyl', 'Aromatic_Ring']"
+"2,2,5-Trimethylhexane",CC(C)CCC(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535159cb0>,[]
+"1,4-Dimethylnaphthalene ",Cc1ccc(C)c2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535159d20>,['Aromatic_Ring']
+6-Methylchrysene,Cc1cc2c3ccccc3ccc2c4ccccc14,<rdkit.Chem.rdchem.Mol object at 0x7fc535159d90>,['Aromatic_Ring']
+2-Pentanone,CCCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535159e00>,['Ketone']
+"2,2',3,3',5,5',6,6'-PCB",Clc1cc(Cl)c(Cl)c(c1Cl)c2c(Cl)c(Cl)cc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535159e70>,"['Aromatic_Ring', 'Halogen']"
+Methyl butyrate,CCCOC(=O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535159ee0>,['Ester']
+Triamcinolone,CC34CC(O)C1(F)C(CCC2=CC(=O)C=CC12C)C3CC(O)C4(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535159f50>,"['Hydroxyl', 'Ketone', 'Halogen']"
+p-Aminophenol,Nc1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535159fc0>,"['Primary_Amine', 'Hydroxyl', 'Aromatic_Ring']"
+Benznidazole,O=C(Cn1ccnc1N(=O)=O)NCc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a030>,"['Amide', 'Aromatic_Ring']"
+"Atovaquone(0,430mg/ml) - neutral",OC4=C(C1CCC(CC1)c2ccc(Cl)cc2)C(=O)c3ccccc3C4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a0a0>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring', 'Halogen']"
+Trietazine,CCNc1nc(Cl)nc(n1)N(CC)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a110>,['Halogen']
+Pyrazinamide,NC(=O)c1cnccn1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a180>,['Primary_Amine']
+Carbromal,CCC(Br)(CC)C(=O)NC(N)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a1f0>,"['Primary_Amine', 'Amide', 'Halogen']"
+"2,2'-PCB",Clc1ccccc1c2ccccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a260>,"['Aromatic_Ring', 'Halogen']"
+nitrofurantoin,O=C2CN(N=Cc1ccc(o1)N(=O)=O)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a2d0>,['Amide']
+Nitrofen,Clc2ccc(Oc1ccc(cc1)N(=O)=O)c(Cl)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a340>,"['Aromatic_Ring', 'Halogen']"
+Camphor,CC1(C)C2CCC1(C)C(=O)C2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a3b0>,['Ketone']
+5-Allyl-5-phenylbarbital,O=C1NC(=O)NC(=O)C1(CC=C)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a420>,"['Amide', 'Aromatic_Ring']"
+Pentyl propanoate,CCCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a490>,['Ester']
+Isopentyl acetate,CC(C)CCOC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a500>,['Ester']
+3-Hexanoyloxymethylphenyltoin,O=C1N(COC(=O)CCCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a570>,"['Ester', 'Amide', 'Aromatic_Ring']"
+"2,3',5-PCB",Clc1cccc(c1)c2cc(Cl)ccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a5e0>,"['Aromatic_Ring', 'Halogen']"
+1-Bromopropane,CCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a650>,['Halogen']
+Propiconazole,CCCC1COC(Cn2cncn2)(O1)c3ccc(Cl)cc3Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a6c0>,"['Aromatic_Ring', 'Halogen']"
+Formothion,COP(=S)(OC)SCC(=O)N(C)C=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a730>,[]
+4-methylpteridine,Cc1ncnc2nccnc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a7a0>,[]
+Thiourea,NC(=S)N,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a810>,['Primary_Amine']
+p-Xylene,Cc1ccc(C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a880>,['Aromatic_Ring']
+"1,2-Diethylbenzene",CCc1ccccc1CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a8f0>,['Aromatic_Ring']
+Hexachloroethane,ClC(Cl)(Cl)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a960>,['Halogen']
+Flucythrinate,CC(C)C(C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1)c3ccc(OC(F)F)cc3,<rdkit.Chem.rdchem.Mol object at 0x7fc53515a9d0>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+1-Nitropropane,CCCN(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515aa40>,[]
+Menthone,CC(C)C1CCC(C)CC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515aab0>,['Ketone']
+RTI 24,CCN2c1cc(Cl)ccc1NC(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ab20>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+"2,3-Dichloronitrobenzene",O=N(=O)c1c(Cl)c(Cl)ccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ab90>,"['Aromatic_Ring', 'Halogen']"
+thiamylal,CCCC(C)C1(CC=C)C(=O)NC(=S)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ac00>,['Amide']
+Fluoranthene,c1ccc2c(c1)c3cccc4cccc2c34,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ac70>,['Aromatic_Ring']
+Propylisopropylether,CCCOC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ace0>,[]
+"1,3-Dimethylnaphthalene",Cc1cc(C)c2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ad50>,['Aromatic_Ring']
+diethylstilbestrol,CCC(=C(CC)c1ccc(O)cc1)c2ccc(O)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515adc0>,"['Hydroxyl', 'Aromatic_Ring']"
+Chlorothalonil,c1(C#N)c(Cl)c(C#N)c(Cl)c(Cl)c(Cl)1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ae30>,"['Aromatic_Ring', 'Halogen']"
+"2,3',4',5-PCB",Clc1ccc(Cl)c(c1)c2ccc(Cl)c(Cl)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515aea0>,"['Aromatic_Ring', 'Halogen']"
+styrene oxide,C1OC1c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515af10>,['Aromatic_Ring']
+Isopropylbenzene,CC(C)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515af80>,['Aromatic_Ring']
+Deoxycorticosterone,CC12CCC3C(CCC4=CC(=O)CCC34C)C2CCC1C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc53515aff0>,"['Hydroxyl', 'Ketone']"
+chlorquinox,c2(Cl)c(Cl)c(Cl)c1nccnc1c2(Cl),<rdkit.Chem.rdchem.Mol object at 0x7fc53515b060>,"['Aromatic_Ring', 'Halogen']"
+L-arabinose,C1OC(O)C(O)C(O)C1O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b0d0>,['Hydroxyl']
+Dichloromethane,ClCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b140>,['Halogen']
+1-Ethylnaphthalene,CCc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b1b0>,['Aromatic_Ring']
+Methyl formate,COC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b220>,['Ester']
+o-Nitrophenol,Oc1ccccc1N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b290>,"['Hydroxyl', 'Aromatic_Ring']"
+thymine,Cc1c[nH]c(=O)[nH]c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b300>,[]
+2-Methylpropane,CC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b370>,[]
+Inosine,OCC1OC(C(O)C1O)n2cnc3c(O)ncnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b3e0>,['Hydroxyl']
+Ioxynil,Oc1c(I)cc(C#N)cc1I,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b450>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Niclosamide,Oc1ccc(Cl)cc1C(=O)Nc2ccc(cc2Cl)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b4c0>,"['Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+Pentane,CCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b530>,[]
+Phenol,c1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b5a0>,"['Hydroxyl', 'Aromatic_Ring']"
+2-aminoanthracene,Nc3ccc2cc1ccccc1cc2c3,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b610>,"['Primary_Amine', 'Aromatic_Ring']"
+theobromine,Cn1cnc2n(C)c(=O)[nH]c(=O)c12,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b680>,[]
+Isoquinoline,c1ccc2cnccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b6f0>,['Aromatic_Ring']
+Anilofos,COP(=S)(OC)SCC(=O)N(C(C)C)c1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b760>,"['Aromatic_Ring', 'Halogen']"
+Hexylbenzene,CCCCCCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b7d0>,['Aromatic_Ring']
+2-Chlorobiphenyl,Clc1ccccc1c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b840>,"['Aromatic_Ring', 'Halogen']"
+2-Methyl-1-Pentene,CCCC(=C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b8b0>,[]
+"2,3,4-Trimethylpentane",CC(C)C(C)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b920>,[]
+Pentachlorobenzene,Clc1cc(Cl)c(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53515b990>,"['Aromatic_Ring', 'Halogen']"
+m-Nitrophenol,Oc1cccc(c1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ba00>,"['Hydroxyl', 'Aromatic_Ring']"
+1-Decene,CCCCCCCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515ba70>,[]
+Glyceryl triacetate,CC(=O)OCC(COC(=O)C)OC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bae0>,['Ester']
+dimethirimol,CCCCc1c(C)nc(nc1O)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bb50>,['Hydroxyl']
+Cyfluthrin,CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c2ccc(F)c(Oc3ccccc3)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bbc0>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Pyridine,c1ccncc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bc30>,[]
+1-Bromoheptane,CCCCCCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bca0>,['Halogen']
+"3,4-Dimethylpyridine",Cc1ccncc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bd10>,[]
+Fludrocortisone,CC34CC(O)C1(F)C(CCC2=CC(=O)CCC12C)C3CCC4(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bd80>,"['Hydroxyl', 'Ketone', 'Halogen']"
+ethiofencarb,CCSCc1ccccc1OC(=O)NC,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bdf0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Malonic acid diethylester,CCOC(=O)CC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53515be60>,['Ester']
+d-Limonene,CC1=CCC(CC1)C(C)=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bed0>,[]
+Indan,C1Cc2ccccc2C1,<rdkit.Chem.rdchem.Mol object at 0x7fc53515bf40>,['Aromatic_Ring']
+p-t-Butylphenol,CC(C)(C)c1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535160040>,"['Hydroxyl', 'Aromatic_Ring']"
+Cyclopropyl-5-spirobarbituric acid,O=C2NC(=O)C1(CC1)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351600b0>,['Amide']
+m-Chloroiodobenzene,Clc1cccc(I)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535160120>,"['Aromatic_Ring', 'Halogen']"
+1-Bromonapthalene,Brc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535160190>,"['Aromatic_Ring', 'Halogen']"
+trans-2-Pentene,CC/C=C/C,<rdkit.Chem.rdchem.Mol object at 0x7fc535160200>,[]
+"2,6-Dimethylpyridine",Cc1cccc(C)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535160270>,[]
+Trichloroethylene,ClC=C(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351602e0>,['Halogen']
+1-Napthylamine,Nc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535160350>,"['Primary_Amine', 'Aromatic_Ring']"
+m-Xylene,Cc1cccc(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351603c0>,['Aromatic_Ring']
+2-hydroxypteridine,Oc2ncc1nccnc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc535160430>,['Hydroxyl']
+Methanol,CO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351604a0>,['Hydroxyl']
+Amobarbital,CCC1(CCC(C)C)C(=O)NC(=O)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535160510>,['Amide']
+2-Butanone,CCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535160580>,['Ketone']
+5-fluorouracil,Fc1c[nH]c(=O)[nH]c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351605f0>,['Halogen']
+tubercidin,Nc1ncnc2n(ccc12)C3OC(CO)C(O)C3O,<rdkit.Chem.rdchem.Mol object at 0x7fc535160660>,"['Primary_Amine', 'Hydroxyl']"
+"1,3-Benzenediol",Oc1cccc(O)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351606d0>,"['Hydroxyl', 'Aromatic_Ring']"
+1-Hexanol,CCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535160740>,['Hydroxyl']
+1-Chloropentane,CCCCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351607b0>,['Halogen']
+"1,3-Butadiene",C=CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535160820>,[]
+Propyl acetate,CCCOC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535160890>,['Ester']
+"5,6,7,8-tetrahydro-2-naphthol",Oc2ccc1CCCCc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535160900>,"['Hydroxyl', 'Aromatic_Ring']"
+chloroacetamide,NC(=O)CCl,<rdkit.Chem.rdchem.Mol object at 0x7fc535160970>,"['Primary_Amine', 'Halogen']"
+Iodofenphos,COP(=S)(OC)Oc1cc(Cl)c(I)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351609e0>,"['Aromatic_Ring', 'Halogen']"
+4-Chlorotoluene,Cc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535160a50>,"['Aromatic_Ring', 'Halogen']"
+Metribuzin,CSc1nnc(c(=O)n1N)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535160ac0>,['Primary_Amine']
+Tricresyl phosphate,Cc1ccc(OP(=O)(Oc2cccc(C)c2)Oc3ccccc3C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535160b30>,['Aromatic_Ring']
+Caproaldehyde,CCCCCC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535160ba0>,[]
+Butamben,CCCCOC(=O)c1ccc(N)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535160c10>,"['Primary_Amine', 'Ester', 'Aromatic_Ring']"
+RTI 3,O2c1cc(C)ccc1N(C)C(=O)c3cc(N)cnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535160c80>,"['Primary_Amine', 'Aromatic_Ring']"
+Nerol,CC(C)=CCC/C(C)=C\CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535160cf0>,['Hydroxyl']
+"2,4'-PCB",Clc1ccc(cc1)c2ccccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535160d60>,"['Aromatic_Ring', 'Halogen']"
+3-Octanoyloxymethylphenytoin,O=C1N(COC(=O)CCCCCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc535160dd0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Nitroethane,CCN(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535160e40>,[]
+Ethalfluralin,CCN(CC(C)=C)c1c(cc(cc1N(=O)=O)C(F)(F)F)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535160eb0>,"['Aromatic_Ring', 'Halogen']"
+"1,2,3,4-Tetrachlorobenzene",Clc1ccc(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535160f20>,"['Aromatic_Ring', 'Halogen']"
+Meprobamate,CCCC(C)(COC(N)=O)COC(N)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535160f90>,"['Primary_Amine', 'Ester']"
+pregnenolone,CC(=O)C3CCC4C2CC=C1CC(O)CCC1(C)C2CCC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161000>,"['Hydroxyl', 'Ketone']"
+Iodomethane,CI,<rdkit.Chem.rdchem.Mol object at 0x7fc535161070>,['Halogen']
+cycloheximide,CC1CC(C)C(=O)C(C1)C(O)CC2CC(=O)NC(=O)C2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351610e0>,"['Hydroxyl', 'Amide', 'Ketone']"
+3-Heptanoyloxymethylphenytoin,O=C1N(COC(=O)CCCCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc535161150>,"['Ester', 'Amide', 'Aromatic_Ring']"
+isophorone,CC1=CC(=O)CC(C)(C)C1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351611c0>,['Ketone']
+Butabarbital,O=C1NC(=O)NC(=O)C1(CC)C(C)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535161230>,['Amide']
+5-Nonanone,CCCCC(=O)CCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351612a0>,['Ketone']
+Glutethimide,CCC1(CCC(=O)NC1=O)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535161310>,"['Amide', 'Aromatic_Ring']"
+3-Methylpentane,CCC(C)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535161380>,[]
+Etofenprox,CCOc1ccc(cc1)C(C)(C)COCc3cccc(Oc2ccccc2)c3,<rdkit.Chem.rdchem.Mol object at 0x7fc5351613f0>,['Aromatic_Ring']
+Methaqualone,Cc1ccccc1n3c(C)nc2ccccc2c3=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535161460>,['Aromatic_Ring']
+Chloroacetonitrile,ClCC#N,<rdkit.Chem.rdchem.Mol object at 0x7fc5351614d0>,['Halogen']
+Trichloronate,CCOP(=S)(CC)Oc1cc(Cl)c(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535161540>,"['Aromatic_Ring', 'Halogen']"
+Ethisterone,CC12CCC(=O)C=C1CCC3C2CCC4(C)C3CCC4(O)C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351615b0>,"['Hydroxyl', 'Ketone']"
+Pyridazine,c1ccnnc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535161620>,[]
+"1,2,3,5-Tetrachlorobenzene",Clc1cc(Cl)c(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535161690>,"['Aromatic_Ring', 'Halogen']"
+Diosgenin,C1C(O)CCC2(C)CC3CCC4(C)C5(C)CC6OCC(C)CC6OC5CC4C3C=C21,<rdkit.Chem.rdchem.Mol object at 0x7fc535161700>,['Hydroxyl']
+o-Aminophenol,Nc1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535161770>,"['Primary_Amine', 'Hydroxyl', 'Aromatic_Ring']"
+Ethyl nonanoate,CCCCCCCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351617e0>,['Ester']
+metalaxyl,COCC(=O)N(C(C)C(=O)OC)c1c(C)cccc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161850>,"['Ester', 'Aromatic_Ring']"
+Propoxur,CNC(=O)Oc1ccccc1OC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351618c0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+2-Chlorobutane,CCC(C)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535161930>,['Halogen']
+2-Napthol,Oc1ccc2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351619a0>,"['Hydroxyl', 'Aromatic_Ring']"
+Oxadiazon,CC(C)Oc1cc(c(Cl)cc1Cl)n2nc(oc2=O)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161a10>,"['Aromatic_Ring', 'Halogen']"
+1-Hexyne,CCCCC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161a80>,[]
+1-Nonyne,CCCCCCCC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161af0>,[]
+2-Chlorotoluene,Cc1ccccc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535161b60>,"['Aromatic_Ring', 'Halogen']"
+Diisopropyl ether,CC(C)OC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161bd0>,[]
+Dapsone,Nc1ccc(cc1)S(=O)(=O)c2ccc(N)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535161c40>,"['Primary_Amine', 'Aromatic_Ring']"
+Methyl hydrazine,CNN,<rdkit.Chem.rdchem.Mol object at 0x7fc535161cb0>,['Primary_Amine']
+Propyne,CC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161d20>,[]
+Phoxim,CCOP(=S)(OCC)ON=C(C#N)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535161d90>,['Aromatic_Ring']
+Propetamphos,CCNP(=S)(OC)OC(=CC(=O)OC(C)C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535161e00>,['Ester']
+Acrolein,C=CC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535161e70>,[]
+Hypoxanthine,O=c1[nH]cnc2nc[nH]c12,<rdkit.Chem.rdchem.Mol object at 0x7fc535161ee0>,[]
+6-hydroxyquinoline,Oc2ccc1ncccc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535161f50>,"['Hydroxyl', 'Aromatic_Ring']"
+Fluorobenzene,Fc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535161fc0>,"['Aromatic_Ring', 'Halogen']"
+1-Chloropropane,CCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc535162030>,['Halogen']
+Ethyl acetate,CCOC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351620a0>,['Ester']
+"2,2-Dimethylpentane",CCCC(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535162110>,[]
+Pentamethylbenzene,Cc1cc(C)c(C)c(C)c1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535162180>,['Aromatic_Ring']
+eucalyptol,CC12CCC(CC1)C(C)(C)O2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351621f0>,[]
+dibutyl sebacate,CCCCOC(=O)CCCCCCCCC(=O)OCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535162260>,['Ester']
+"4,4'-PCB",Clc1ccc(cc1)c2ccc(Cl)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5350af6f0>,"['Aromatic_Ring', 'Halogen']"
+"2,3-Dimethylpyridine",Cc1cccnc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc5350afe60>,[]
+Carvone,CC(=C)C1CC=C(C)C(=O)C1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351622d0>,['Ketone']
+Carbophenthion,CCOP(=S)(OCC)SCSc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162340>,"['Aromatic_Ring', 'Halogen']"
+"Etoposide (148-167,25mg/ml)",COc1cc(cc(OC)c1O)C6C2C(COC2=O)C(OC4OC3COC(C)OC3C(O)C4O)c7cc5OCOc5cc67,<rdkit.Chem.rdchem.Mol object at 0x7fc5351623b0>,"['Hydroxyl', 'Ester', 'Aromatic_Ring']"
+Perylene,c1cc2cccc3c4cccc5cccc(c(c1)c23)c54,<rdkit.Chem.rdchem.Mol object at 0x7fc535162420>,['Aromatic_Ring']
+"2,4-Dinitrotoluene",Cc1ccc(cc1N(=O)=O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535162490>,['Aromatic_Ring']
+2-bromonaphthalene,c1c(Br)ccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535162500>,"['Aromatic_Ring', 'Halogen']"
+Formetanate,CNC(=O)Oc1cccc(N=CN(C)C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162570>,"['Ester', 'Amide', 'Aromatic_Ring']"
+6-methoxypteridine,COc2cnc1ncncc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351625e0>,[]
+nevirapine,Cc3ccnc4N(C1CC1)c2ncccc2C(=O)Nc34,<rdkit.Chem.rdchem.Mol object at 0x7fc535162650>,['Amide']
+Isazofos,CCOP(=S)(OCC)Oc1nc(Cl)n(n1)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351626c0>,['Halogen']
+"2-Methyl-1,3-Butadiene ",CC(=C)C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535162730>,[]
+linalool,CC(C)=CCCC(O)(C)C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351627a0>,['Hydroxyl']
+Fenthion,COP(=S)(OC)Oc1ccc(SC)c(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162810>,['Aromatic_Ring']
+Cyclohexanol,OC1CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162880>,['Hydroxyl']
+5-Allyl-5-methylbarbital,O=C1NC(=O)NC(=O)C1(C)CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351628f0>,['Amide']
+Epiandrosterone,CC34CCC1C(CCC2CC(O)CCC12C)C3CCC4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535162960>,"['Hydroxyl', 'Ketone']"
+mannitol,OCC(O)C(O)C(O)C(O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351629d0>,['Hydroxyl']
+4-Methylbiphenyl,Cc1ccc(cc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535162a40>,['Aromatic_Ring']
+Atrazine,CCNc1nc(Cl)nc(NC(C)C)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162ab0>,['Halogen']
+Phenylthiourea,NC(=S)Nc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162b20>,"['Primary_Amine', 'Aromatic_Ring']"
+4-Heptanone,CCCC(=O)CCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535162b90>,['Ketone']
+"3,3-Dimethyl-2-butanone",CC(=O)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535162c00>,['Ketone']
+4-Chlorophenol,Oc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162c70>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Cyclohexanone,O=C1CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162ce0>,['Ketone']
+m-Methylaniline,Cc1cccc(N)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162d50>,"['Primary_Amine', 'Aromatic_Ring']"
+Trichloroacetonitrile,ClC(Cl)(Cl)C#N,<rdkit.Chem.rdchem.Mol object at 0x7fc535162dc0>,['Halogen']
+norflurazon,CNc2cnn(c1cccc(c1)C(F)(F)F)c(=O)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535162e30>,"['Aromatic_Ring', 'Halogen']"
+2-Decanone,CCCCCCCCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535162ea0>,['Ketone']
+Ipazine,CCN(CC)c1nc(Cl)nc(NC(C)C)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162f10>,['Halogen']
+Benzocaine,CCOC(=O)c1ccc(N)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162f80>,"['Primary_Amine', 'Ester', 'Aromatic_Ring']"
+"1,2,4-Trichlorobenzene",Clc1ccc(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535162ff0>,"['Aromatic_Ring', 'Halogen']"
+Triazolam,Cc3nnc4CN=C(c1ccccc1Cl)c2cc(Cl)ccc2n34,<rdkit.Chem.rdchem.Mol object at 0x7fc535163060>,"['Aromatic_Ring', 'Halogen']"
+"1,2-Benzenediol",Oc1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351630d0>,"['Hydroxyl', 'Aromatic_Ring']"
+Reverse Transcriptase inhibitor 1,CCN2c1ncccc1N(C)C(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535163140>,[]
+Dimethyl sulfide,CSC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351631b0>,[]
+2-Bromotoluene,Cc1ccccc1Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535163220>,"['Aromatic_Ring', 'Halogen']"
+O-Ethyl carbamate,CCOC(=O)N,<rdkit.Chem.rdchem.Mol object at 0x7fc535163290>,"['Primary_Amine', 'Ester']"
+megestrol acetate,CC(=O)OC3(CCC4C2C=C(C)C1=CC(=O)CCC1(C)C2CCC34C)C(C)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535163300>,"['Ester', 'Ketone']"
+"2,4-Dimethyl-3-pentanol",CC(C)C(O)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535163370>,['Hydroxyl']
+Napthalene,c1ccc2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351633e0>,['Aromatic_Ring']
+N-Ethylaniline,CCNc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535163450>,['Aromatic_Ring']
+Phenytoin,O=C1NC(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc5351634c0>,"['Amide', 'Aromatic_Ring']"
+"7,12-Dimethylbenz(a)anthracene",Cc1c2ccccc2c(C)c3ccc4ccccc4c13,<rdkit.Chem.rdchem.Mol object at 0x7fc535163530>,['Aromatic_Ring']
+Dialifor,CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351635a0>,"['Aromatic_Ring', 'Halogen']"
+Methoxychlor,COc1ccc(cc1)C(c2ccc(OC)cc2)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535163610>,"['Aromatic_Ring', 'Halogen']"
+TEFLUBENZURON,Fc1cccc(F)c1C(=O)NC(=O)Nc2cc(Cl)c(F)c(Cl)c2F,<rdkit.Chem.rdchem.Mol object at 0x7fc535163680>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+3-Pentanoyloxymethylphenytoin,O=C1N(COC(=O)CCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc5351636f0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Monuron,CN(C)C(=O)Nc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535163760>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Flutriafol,OC(Cn1cncn1)(c2ccc(F)cc2)c3ccccc3F,<rdkit.Chem.rdchem.Mol object at 0x7fc5351637d0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+triamcinolone diacetate,CC(=O)OCC(=O)C3(O)C(CC4C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC34C)OC(C)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535163840>,"['Hydroxyl', 'Ester', 'Ketone', 'Halogen']"
+1-Bromobutane,CCCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc5351638b0>,['Halogen']
+"1,2,4,5-Tetrabromobenzene",Brc1cc(Br)c(Br)cc1Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535163920>,"['Aromatic_Ring', 'Halogen']"
+4-Methyl-2-pentanone,CC(C)CC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535163990>,['Ketone']
+cycloate,CCSC(=O)N(CC)C1CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535163a00>,[]
+4-Chloroanisole,COc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535163a70>,"['Aromatic_Ring', 'Halogen']"
+Deltamethrin,CC1(C)C(C=C(Br)Br)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535163ae0>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Talbutal,CCC(C)C1(CC=C)C(=O)NC(=O)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535163b50>,['Amide']
+Fenitrothion,COP(=S)(OC)Oc1ccc(N(=O)=O)c(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535163bc0>,['Aromatic_Ring']
+1-Iodonapthalene,Ic1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535163c30>,"['Aromatic_Ring', 'Halogen']"
+Sorbitol,OCC(O)C(O)C(O)C(O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535163ca0>,['Hydroxyl']
+Ethanethiol,CCS,<rdkit.Chem.rdchem.Mol object at 0x7fc535163d10>,[]
+"1,1,2-Trichloroethane",ClCC(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535163d80>,['Halogen']
+Pyrolan,CN(C)C(=O)Oc1cc(C)nn1c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535163df0>,"['Ester', 'Aromatic_Ring']"
+o-Hydroxybenzamide,NC(=O)c1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535163e60>,"['Primary_Amine', 'Hydroxyl', 'Aromatic_Ring']"
+o-Nitrotoluene,Cc1ccccc1N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535163ed0>,['Aromatic_Ring']
+"5,5-Diisopropylbarbital",O=C1NC(=O)NC(=O)C1(C(C)C)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535163f40>,['Amide']
+2-Ethyltoluene,CCc1ccccc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535168040>,['Aromatic_Ring']
+1-Chloroheptane,CCCCCCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351680b0>,['Halogen']
+Barbital,O=C1NC(=O)NC(=O)C1(CC)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535168120>,['Amide']
+Bibenzyl,C(Cc1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535168190>,['Aromatic_Ring']
+"1,1,2,2-Tetrachloroethane",ClC(Cl)C(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168200>,['Halogen']
+RTI 23,CCN2c1cc(OC)cc(C)c1NC(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535168270>,"['Amide', 'Aromatic_Ring']"
+2-Methylphenanthrene,Cc1ccc2c(ccc3ccccc32)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351682e0>,['Aromatic_Ring']
+dibutylphthalate,CCCCOC(=O)c1ccccc1C(=O)OCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535168350>,"['Ester', 'Aromatic_Ring']"
+tetrachloroguaiacol,COc1c(O)c(Cl)c(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351683c0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Dimecron,CCN(CC)C(=O)C(=CCOP(=O)(OC)OC)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168430>,['Halogen']
+Equilin,CC34CCC1C(=CCc2cc(O)ccc12)C3CCC4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351684a0>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+Chlorimuron-ethyl (ph 7),CCOC(=O)c1ccccc1S(=O)(=O)NN(C=O)c2nc(Cl)cc(OC)n2,<rdkit.Chem.rdchem.Mol object at 0x7fc535168510>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+p-Nitroanisole,COc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535168580>,['Aromatic_Ring']
+1-Chlorohexane,CCCCCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351685f0>,['Halogen']
+"2,2',3,3',4,4',5,5'-PCB",Clc1cc(c(Cl)c(Cl)c1Cl)c2cc(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168660>,"['Aromatic_Ring', 'Halogen']"
+Raffinose,OCC1OC(CO)(OC2OC(COC3OC(CO)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C1O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351686d0>,['Hydroxyl']
+hexacosane,CCCCCCCCCCCCCCCCCCCCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535168740>,[]
+RTI 5,CCN2c1ccccc1N(C)C(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc5351687b0>,['Aromatic_Ring']
+"1,1-Dichloroethane",CC(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168820>,['Halogen']
+Sulfanilamide,Nc1ccc(cc1)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535168890>,"['Primary_Amine', 'Aromatic_Ring']"
+Isopropalin,CCCN(CCC)c1c(cc(cc1N(=O)=O)C(C)C)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535168900>,['Aromatic_Ring']
+Lindane,ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168970>,['Halogen']
+Isofenphos,CCOP(=S)(NC(C)C)Oc1ccccc1C(=O)OC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351689e0>,"['Ester', 'Aromatic_Ring']"
+"1,2,3-Trichlorobenzene",Clc1cccc(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168a50>,"['Aromatic_Ring', 'Halogen']"
+Tetrachloromethane,ClC(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535168ac0>,['Halogen']
+"3,4-Dichloronitrobenzene",O=N(=O)c1cc(Cl)c(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535168b30>,"['Aromatic_Ring', 'Halogen']"
+Cyclooctanol,OC1CCCCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535168ba0>,['Hydroxyl']
+17a-Methyltestosterone,CC1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3CCC21C,<rdkit.Chem.rdchem.Mol object at 0x7fc535168c10>,"['Hydroxyl', 'Ketone']"
+Dulcin,CCOc1ccc(NC(N)=O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535168c80>,"['Primary_Amine', 'Amide', 'Aromatic_Ring']"
+"trans-1,4-Dimethylcyclohexane",C/C1CCC(\C)CC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535168cf0>,[]
+"1,7-phenantroline",c1cnc2c(c1)ccc3ncccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535168d60>,['Aromatic_Ring']
+Methyl t-butyl ether,COC(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535168dd0>,[]
+Anethole,COc1ccc(C=CC)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535168e40>,['Aromatic_Ring']
+1-Hexadecanol,CCCCCCCCCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535168eb0>,['Hydroxyl']
+uracil,O=c1cc[nH]c(=O)[nH]1,<rdkit.Chem.rdchem.Mol object at 0x7fc535168f20>,[]
+adenine,Nc1ncnc2nc[nH]c12,<rdkit.Chem.rdchem.Mol object at 0x7fc535168f90>,['Primary_Amine']
+"2,2',3,4,5-PCB",Clc1cc(Cl)c(cc1Cl)c2cccc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535169000>,"['Aromatic_Ring', 'Halogen']"
+Ancymidol,COc1ccc(cc1)C(O)(C2CC2)c3cncnc3,<rdkit.Chem.rdchem.Mol object at 0x7fc535169070>,"['Hydroxyl', 'Aromatic_Ring']"
+Benzo(b)fluoranthene,c1ccc2c(c1)c3cccc4c3c2cc5ccccc54,<rdkit.Chem.rdchem.Mol object at 0x7fc5351690e0>,['Aromatic_Ring']
+Carbanilide,O=C(Nc1ccccc1)Nc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535169150>,"['Amide', 'Aromatic_Ring']"
+phenobarbital,CCC1(C(=O)NC(=O)NC1=O)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351691c0>,"['Amide', 'Aromatic_Ring']"
+"2',3,4-PCB",Clc1ccc(cc1)c2cccc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535169230>,"['Aromatic_Ring', 'Halogen']"
+Isoproturon,CC(C)c1ccc(NC(=O)N(C)C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351692a0>,"['Amide', 'Aromatic_Ring']"
+Azintamide,CCN(CC)C(=O)CSc1ccc(Cl)nn1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169310>,['Halogen']
+"2,2-Dimethyl-1-butanol",CCC(C)(C)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535169380>,['Hydroxyl']
+Ethyl pentanoate,CCCOC(=O)CCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351693f0>,['Ester']
+"2,4,6-Trinitrotoluene",Cc1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535169460>,['Aromatic_Ring']
+Bensulide,CC(C)OP(=S)(OC(C)C)SCCNS(=O)(=O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351694d0>,['Aromatic_Ring']
+Cycloheptane,C1CCCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169540>,[]
+Propyl formate,CCCOC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351695b0>,['Ester']
+2-Isopropyltoluene,CC(C)c1ccccc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535169620>,['Aromatic_Ring']
+m-Chloroaniline,Nc1cccc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169690>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+"2,4-Dimethylpentane",CC(C)CC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535169700>,[]
+Dibenzofurane,o1c2ccccc2c3ccccc13,<rdkit.Chem.rdchem.Mol object at 0x7fc535169770>,['Aromatic_Ring']
+ethofumesate,CCOC2Oc1ccc(OS(C)(=O)=O)cc1C2(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351697e0>,['Aromatic_Ring']
+Fluometuron,CN(C)C(=O)Nc1cccc(c1)C(F)(F)F,<rdkit.Chem.rdchem.Mol object at 0x7fc535169850>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Acridine,c3ccc2nc1ccccc1cc2c3,<rdkit.Chem.rdchem.Mol object at 0x7fc5351698c0>,['Aromatic_Ring']
+Cortisone,CC12CC(=O)C3C(CCC4=CC(=O)CCC34C)C2CCC1(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535169930>,"['Hydroxyl', 'Ketone']"
+glucose,OCC1OC(O)C(O)C(O)C1O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351699a0>,['Hydroxyl']
+3-Methylphenol,Cc1cccc(O)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169a10>,"['Hydroxyl', 'Aromatic_Ring']"
+Indapamide,CC2Cc1ccccc1N2NC(=O)c3ccc(Cl)c(c3)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535169a80>,"['Primary_Amine', 'Amide', 'Aromatic_Ring', 'Halogen']"
+Lovastatin,CCC(C)C(=O)OC2CC(C)C=C3C=CC(C)C(CCC1CC(O)CC(=O)O1)C23,<rdkit.Chem.rdchem.Mol object at 0x7fc535169af0>,"['Hydroxyl', 'Ester']"
+"1,4-Dinitrobenzene",O=N(=O)c1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535169b60>,['Aromatic_Ring']
+Reposal,CCC1(C(=O)NC(=O)NC1=O)C2=CCC3CCC2C3,<rdkit.Chem.rdchem.Mol object at 0x7fc535169bd0>,['Amide']
+Ethyl decanoate,CCCCCCCCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535169c40>,['Ester']
+Fenuron,CN(C)C(=O)Nc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169cb0>,"['Amide', 'Aromatic_Ring']"
+Ethyl propyl ether,CCCOCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535169d20>,[]
+2-Propanol,CC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535169d90>,['Hydroxyl']
+2-Methylnapthalene,Cc1ccc2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169e00>,['Aromatic_Ring']
+Chlorodibromethane,ClC(Br)Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535169e70>,['Halogen']
+Hexestrol,CCC(C(CC)c1ccc(O)cc1)c2ccc(O)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535169ee0>,"['Hydroxyl', 'Aromatic_Ring']"
+Malathion,CCOC(=O)CC(SP(=S)(OC)OC)C(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535169f50>,['Ester']
+Benzylchloride,ClCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535169fc0>,"['Aromatic_Ring', 'Halogen']"
+t-Crotonaldehyde,C/C=C/C=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a030>,[]
+Chlorbromuron,CON(C)C(=O)Nc1ccc(Br)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a0a0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+"9,10-Dimethylanthracene",Cc1c2ccccc2c(C)c3ccccc13,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a110>,['Aromatic_Ring']
+Methyl hexanoate,CCCCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a180>,['Ester']
+Dimefuron,CN(C)C(=O)Nc1ccc(c(Cl)c1)n2nc(oc2=O)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a1f0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+p-Fluoroacetanilide,CC(=O)Nc1ccc(F)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a260>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+alachlor,CCc1cccc(CC)c1N(COC)C(=O)CCl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a2d0>,"['Aromatic_Ring', 'Halogen']"
+Cyclohexene,C1CCC=CC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a340>,[]
+Hydrocortisone,CC12CC(O)C3C(CCC4=CC(=O)CCC34C)C2CCC1(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a3b0>,"['Hydroxyl', 'Ketone']"
+Pyrimidine,c1cncnc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a420>,[]
+p-Chloronitrobenzene,Clc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a490>,"['Aromatic_Ring', 'Halogen']"
+Methyl propionate,CCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a500>,['Ester']
+o-Chloronitrobenzene,Clc1ccccc1N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a570>,"['Aromatic_Ring', 'Halogen']"
+Neburon,CCCCN(C)C(=O)Nc1ccc(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a5e0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Buthidazole,CN1CC(O)N(C1=O)c2nnc(s2)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a650>,['Hydroxyl']
+Nitrobenzene,O=N(=O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a6c0>,['Aromatic_Ring']
+Iodobenzene,Ic1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a730>,"['Aromatic_Ring', 'Halogen']"
+Metolazone,CC2Nc1cc(Cl)c(cc1C(=O)N2c3ccccc3C)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a7a0>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+Methocarbamol,COc1ccccc1OCC(O)COC(N)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a810>,"['Primary_Amine', 'Hydroxyl', 'Ester', 'Aromatic_Ring']"
+butachlor,CCCCOCN(C(=O)CCl)c1c(CC)cccc1CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a880>,"['Aromatic_Ring', 'Halogen']"
+"2,3-Dichlorophenol",Oc1cccc(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a8f0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Propyl butyrate,CCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a960>,['Ester']
+Propanil,CCC(=O)Nc1ccc(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516a9d0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Triamterene,Nc3nc(N)c2nc(c1ccccc1)c(N)nc2n3,<rdkit.Chem.rdchem.Mol object at 0x7fc53516aa40>,"['Primary_Amine', 'Aromatic_Ring']"
+Ethyl hexanoate,CCCCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516aab0>,['Ester']
+chloralose,OCC(O)C2OC1OC(OC1C2O)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ab20>,"['Hydroxyl', 'Halogen']"
+Amitraz,CN(C=Nc1ccc(C)cc1C)C=Nc2ccc(C)cc2C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ab90>,['Aromatic_Ring']
+Prometon,COc1nc(NC(C)C)nc(NC(C)C)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ac00>,[]
+1-Octene,CCCCCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ac70>,[]
+p-Methylaniline,Cc1ccc(N)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ace0>,"['Primary_Amine', 'Aromatic_Ring']"
+aminothiazole,Nc1nccs1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ad50>,['Primary_Amine']
+Metolcarb,c1ccccc1(OC(=O)NC),<rdkit.Chem.rdchem.Mol object at 0x7fc53516adc0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+3-Hexanol,CCCC(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ae30>,['Hydroxyl']
+9-anthrol,c3ccc2c(O)c1ccccc1cc2c3,<rdkit.Chem.rdchem.Mol object at 0x7fc53516aea0>,"['Hydroxyl', 'Aromatic_Ring']"
+2-Methylanthracene,Cc1ccc2cc3ccccc3cc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516af10>,['Aromatic_Ring']
+"1,2,3-Trimethylbenzene ",Cc1cccc(C)c1C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516af80>,['Aromatic_Ring']
+Aminocarb,CNC(=O)Oc1ccc(N(C)C)c(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516aff0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+2-Nonanol,CCCCCCCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b060>,['Hydroxyl']
+Methyldymron,CN(C(=O)NC(C)(C)c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b0d0>,"['Amide', 'Aromatic_Ring']"
+3-Hexanone,CCCC(=O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b140>,['Ketone']
+bromoxynil,Oc1c(Br)cc(C#N)cc1Br,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b1b0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+"3,4-PCB",Clc1ccc(cc1Cl)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b220>,"['Aromatic_Ring', 'Halogen']"
+Mefenacet,CN(C(=O)COc1nc2ccccc2s1)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b290>,['Aromatic_Ring']
+5-hydroxyquinoline,Oc1cccc2ncccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b300>,"['Hydroxyl', 'Aromatic_Ring']"
+Carboxin,CC1=C(SCCO1)C(=O)Nc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b370>,"['Amide', 'Aromatic_Ring']"
+Ethoxyzolamide,CCOc2ccc1nc(sc1c2)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b3e0>,"['Primary_Amine', 'Aromatic_Ring']"
+Pentachlorophenol,Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b450>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Bromochloromethane,ClCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b4c0>,['Halogen']
+metharbital,CCC1(CC)C(=O)NC(=O)N(C)C1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b530>,['Amide']
+deoxycorticosterone acetate,CC(=O)OCC(=O)C3CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b5a0>,"['Ester', 'Ketone']"
+benzylurea,NC(=O)NCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b610>,"['Primary_Amine', 'Amide', 'Aromatic_Ring']"
+Chlortoluron,CN(C)C(=O)Nc1ccc(C)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b680>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Linuron,CON(C)C(=O)Nc1ccc(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b6f0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Cycloheptanol,OC1CCCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b760>,['Hydroxyl']
+Thiamphenicol,CS(=O)(=O)c1ccc(cc1)C(O)C(CO)NC(=O)C(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b7d0>,"['Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+thiopental,CCCC(C)C1(CC)C(=O)NC(=S)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b840>,['Amide']
+acetazolamide,CC(=O)Nc1nnc(s1)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b8b0>,"['Primary_Amine', 'Amide']"
+p-Nitrophenol,Oc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b920>,"['Hydroxyl', 'Aromatic_Ring']"
+Aldrin,ClC1=C(Cl)C2(Cl)C3C4CC(C=C4)C3C1(Cl)C2(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516b990>,['Halogen']
+Tetrahydrofurane,C1CCOC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ba00>,[]
+o-Nitroaniline,Nc1ccccc1N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ba70>,"['Primary_Amine', 'Aromatic_Ring']"
+"2,2',3,3'-PCB",Clc1cccc(c1Cl)c2cccc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bae0>,"['Aromatic_Ring', 'Halogen']"
+phenylbutazone,CCCCC1C(=O)N(N(C1=O)c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bb50>,['Aromatic_Ring']
+"2,6-Dinitrotoluene",Cc1c(cccc1N(=O)=O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bbc0>,['Aromatic_Ring']
+Progesterone,CC(=O)C1CCC2C3CCC4=CC(=O)CCC4(C)C3CCC12C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bc30>,['Ketone']
+Chlorazine,CCN(CC)c1nc(Cl)nc(n1)N(CC)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bca0>,['Halogen']
+captafol,ClC(Cl)C(Cl)(Cl)SN2C(=O)C1CC=CCC1C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bd10>,['Halogen']
+"1,2,4-tribromobenzene",c1(Br)c(Br)cc(Br)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bd80>,"['Aromatic_Ring', 'Halogen']"
+Oxazepam,OC3N=C(c1ccccc1)c2cc(Cl)ccc2NC3=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bdf0>,"['Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+Secobarbital,O=C1NC(=O)NC(=O)C1(C(C)CCC)CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516be60>,['Amide']
+Carvacrol,c1(O)c(C)ccc(C(C)C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516bed0>,"['Hydroxyl', 'Aromatic_Ring']"
+rhodanine,C1SC(=S)NC1(=O),<rdkit.Chem.rdchem.Mol object at 0x7fc53516bf40>,['Amide']
+Morin,Oc1ccc(c(O)c1)c3oc2cc(O)cc(O)c2c(=O)c3O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c040>,"['Hydroxyl', 'Aromatic_Ring']"
+Kepone,ClC1(C(=O)C2(Cl)C3(Cl)C14Cl)C5(Cl)C2(Cl)C3(Cl)C(Cl)(Cl)C45Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c0b0>,"['Ketone', 'Halogen']"
+Disulfiram,CCN(CC)C(=S)SSC(=S)N(CC)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c120>,[]
+Cyclohexane,C1CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c190>,[]
+Dienochlor,ClC1=C(Cl)C(Cl)(C(=C1Cl)Cl)C2(Cl)C(=C(Cl)C(=C2Cl)Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c200>,['Halogen']
+chlordimeform,CN(C)C=Nc1ccc(Cl)cc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c270>,"['Aromatic_Ring', 'Halogen']"
+Equilenin,CC34CCc1c(ccc2cc(O)ccc12)C3CCC4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c2e0>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+1-Octanol,CCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c350>,['Hydroxyl']
+Diethyl sulfide,CCSCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c3c0>,[]
+"1,2-Dichloroethane",ClCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c430>,['Halogen']
+2-Chloro-2-methylbutane,CCC(C)(C)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c4a0>,['Halogen']
+1-Chloro-2-bromoethane,ClCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c510>,['Halogen']
+p-Nitroaniline,Nc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c580>,"['Primary_Amine', 'Aromatic_Ring']"
+Lactose,OCC1OC(OC2C(O)C(O)C(O)OC2CO)C(O)C(O)C1O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c5f0>,['Hydroxyl']
+RTI 2,CCN2c1ncccc1N(CC)C(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c660>,[]
+Chlorobenzene,Clc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c6d0>,"['Aromatic_Ring', 'Halogen']"
+1-Nonene,CCCCCCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c740>,[]
+p-Bromoiodobenzene,Brc1ccc(I)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c7b0>,"['Aromatic_Ring', 'Halogen']"
+3-Methyl-3-pentanol,CCC(C)(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c820>,['Hydroxyl']
+Pentylbenzene,CCCCCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c890>,['Aromatic_Ring']
+allantoin,NC(=O)NC1NC(=O)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c900>,"['Primary_Amine', 'Amide']"
+Glafenine,OCC(O)COC(=O)c1ccccc1Nc2ccnc3cc(Cl)ccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c970>,"['Hydroxyl', 'Ester', 'Aromatic_Ring', 'Halogen']"
+DDD,ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516c9e0>,"['Aromatic_Ring', 'Halogen']"
+testosterone acetate,CC(=O)OC3CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ca50>,"['Ester', 'Ketone']"
+1-Chloronapthalene,Clc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cac0>,"['Aromatic_Ring', 'Halogen']"
+RTI 19,CCN2c1ccccc1N(C)C(=O)c3ccccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cb30>,['Aromatic_Ring']
+2-Hexanol,CCCCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cba0>,['Hydroxyl']
+Propylcyclopentane,CCCC1CCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cc10>,[]
+Etomidate,CCOC(=O)c1cncn1C(C)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cc80>,"['Ester', 'Aromatic_Ring']"
+"3,4-Dichlorophenol",Oc1ccc(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ccf0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Cypermethrin,CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cd60>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Benzoxazole,c2ccc1ocnc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cdd0>,['Aromatic_Ring']
+1-Pentanol,CCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ce40>,['Hydroxyl']
+"N,N-Diethylaniline",CCN(CC)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ceb0>,['Aromatic_Ring']
+"1,3-Difluorobenzene",Fc1cccc(F)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cf20>,"['Aromatic_Ring', 'Halogen']"
+3-chloropropionitrile,ClCCC#N,<rdkit.Chem.rdchem.Mol object at 0x7fc53516cf90>,['Halogen']
+t-Pentylbenzene,CC(C)(C)Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d000>,['Aromatic_Ring']
+5-Ethyl-5-phenylbarbital,O=C1NC(=O)NC(=O)C1(CC)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d070>,"['Amide', 'Aromatic_Ring']"
+o-Chloroiodobenzene,Clc1ccccc1I,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d0e0>,"['Aromatic_Ring', 'Halogen']"
+Benzotriazole,c2ccc1[nH]nnc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d150>,['Aromatic_Ring']
+Carbofuran,CNC(=O)Oc1cccc2CC(C)(C)Oc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d1c0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+"2,6-Dimethylphenol",Cc1cccc(C)c1O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d230>,"['Hydroxyl', 'Aromatic_Ring']"
+3-Methyl-2-butanol,CC(C)C(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d2a0>,['Hydroxyl']
+benzhydrol,c1ccccc1C(O)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d310>,"['Hydroxyl', 'Aromatic_Ring']"
+Methyl decanoate,CCCCCCCCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d380>,['Ester']
+Dicapthon,COP(=S)(OC)Oc1ccc(cc1Cl)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d3f0>,"['Aromatic_Ring', 'Halogen']"
+1-Bromo-2-methylpropane,CC(C)CBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d460>,['Halogen']
+Iodoethane,CCI,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d4d0>,['Halogen']
+Pirimicarb,CN(C)C(=O)Oc1nc(nc(C)c1C)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d540>,['Ester']
+1-Bromohexane,CCCCCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d5b0>,['Halogen']
+2-Methylpentane,CCCC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d620>,[]
+Tetrafluthrin,Cc1c(F)c(F)c(COC(=O)C2C(C=C(Cl)C(F)(F)F)C2(C)C)c(F)c1F,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d690>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Metolachlor,CCc1cccc(C)c1N(C(C)COC)C(=O)CCl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d700>,"['Aromatic_Ring', 'Halogen']"
+nifuroxime,ON=Cc1ccc(o1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d770>,['Hydroxyl']
+Fluvalinate,CC(C)C(Nc1ccc(cc1Cl)C(F)(F)F)C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d7e0>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Amitrole,Nc1nc[nH]n1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d850>,['Primary_Amine']
+Tribromomethane,BrC(Br)Br,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d8c0>,['Halogen']
+Trichlorfon,COP(=O)(OC)C(O)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d930>,"['Hydroxyl', 'Halogen']"
+Phosalone,CCOP(=S)(OCC)SCn1c(=O)oc2cc(Cl)ccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53516d9a0>,"['Aromatic_Ring', 'Halogen']"
+Phenylmethanol,OCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516da10>,"['Hydroxyl', 'Aromatic_Ring']"
+Coumatetralyl,O=c2c(C3CCCc4ccccc43)c(O)c1ccccc1o2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516da80>,"['Hydroxyl', 'Aromatic_Ring']"
+4-Bromophenol,Oc1ccc(Br)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516daf0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+2-Bromopropane,CC(C)Br,<rdkit.Chem.rdchem.Mol object at 0x7fc53516db60>,['Halogen']
+"2,2,4-Trimethylpentane",CC(C)CC(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dbd0>,[]
+"1,3,5-Trinitrobenzene",O=N(=O)c1cc(cc(c1)N(=O)=O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dc40>,['Aromatic_Ring']
+Nimetazepam,CN2C(=O)CN=C(c1ccccc1)c3cc(ccc23)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dcb0>,['Aromatic_Ring']
+Propane,CCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dd20>,[]
+Minoxidil,Nc1cc(nc(N)n1=O)N2CCCCC2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dd90>,['Primary_Amine']
+1-aminoacridine,Nc2cccc3nc1ccccc1cc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516de00>,"['Primary_Amine', 'Aromatic_Ring']"
+Benzo(k)fluoranthene,c1ccc2cc3c4cccc5cccc(c3cc2c1)c45,<rdkit.Chem.rdchem.Mol object at 0x7fc53516de70>,['Aromatic_Ring']
+Dicofol,OC(c1ccc(Cl)cc1)(c2ccc(Cl)cc2)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dee0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Acenapthene,C1Cc2cccc3cccc1c23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516df50>,['Aromatic_Ring']
+Dialifos,CCOP(=S)(OCC)SC(CCl)N2C(=O)c1ccccc1C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516dfc0>,"['Aromatic_Ring', 'Halogen']"
+"1,4-Dibromobenzene",Brc1ccc(Br)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e030>,"['Aromatic_Ring', 'Halogen']"
+Methazole,Cn2c(=O)on(c1ccc(Cl)c(Cl)c1)c2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e0a0>,"['Aromatic_Ring', 'Halogen']"
+p-Phenylphenol,Oc1ccc(cc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e110>,"['Hydroxyl', 'Aromatic_Ring']"
+pyracarbolid,CC1=C(CCCO1)C(=O)Nc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e180>,"['Amide', 'Aromatic_Ring']"
+Ethyl vinyl ether,CCOC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e1f0>,[]
+1-Butyne,CCC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e260>,[]
+4-methoxypteridine,COc1ncnc2nccnc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e2d0>,[]
+3-Methyl-3-heptanol,CCCCC(C)(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e340>,['Hydroxyl']
+"1,4-Dichlorobenzene",Clc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e3b0>,"['Aromatic_Ring', 'Halogen']"
+3-Ethanoyloxymethylphenytoin,O=C1N(COC(=O)C)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e420>,"['Ester', 'Amide', 'Aromatic_Ring']"
+"Sparsomycin (3,8mg/ml)",CSCS(=O)CC(CO)NC(=O)C=Cc1c(C)[nH]c(=O)[nH]c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e490>,"['Hydroxyl', 'Amide']"
+3-methylindole,Cc1c[nH]c2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e500>,['Aromatic_Ring']
+2-methoxypteridine,COc2ncc1nccnc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e570>,[]
+Dioxacarb,CNC(=O)Oc1ccccc1C2OCCO2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e5e0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+isocarbamid,C1N(C(=O)NCC(C)C)C(=O)NC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e650>,['Amide']
+Acetonitrile,CC#N,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e6c0>,[]
+Fenoxycarb,CCOC(=O)NCCOc2ccc(Oc1ccccc1)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e730>,"['Ester', 'Amide', 'Aromatic_Ring']"
+acetyl sulfisoxazole,CC(=O)N(S(=O)c1ccc(N)cc1)c2onc(C)c2C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e7a0>,"['Primary_Amine', 'Aromatic_Ring']"
+"1,1,1,2-Tetrachloroethane",ClCC(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e810>,['Halogen']
+1-Butanol,CCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e880>,['Hydroxyl']
+Siduron,CC1CCCCC1NC(=O)Nc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e8f0>,"['Amide', 'Aromatic_Ring']"
+"1,3,5-Trichlorobenzene",Clc1cc(Cl)cc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e960>,"['Aromatic_Ring', 'Halogen']"
+Furfural,O=Cc1ccco1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516e9d0>,[]
+3-Methylbutan-1-ol,CC(C)CCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ea40>,['Hydroxyl']
+piperonal,O=Cc2ccc1OCOc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516eab0>,['Aromatic_Ring']
+2-Methylpropene,CC(=C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516eb20>,[]
+Benzaldehyde,O=Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516eb90>,['Aromatic_Ring']
+"2,3-Dimethyl-1,3-Butadiene",CC(=C)C(=C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ec00>,[]
+Benfuracarb,CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2CC(C)(C)Oc21)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ec70>,"['Ester', 'Aromatic_Ring']"
+RTI 10,O2c1ccccc1N(C)C(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ece0>,['Aromatic_Ring']
+Fluorene,C1c2ccccc2c3ccccc13,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ed50>,['Aromatic_Ring']
+Methylcyclohexane,CC1CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516edc0>,[]
+sulfaguanidine,NC(=N)NS(=O)(=O)c1ccc(N)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ee30>,"['Primary_Amine', 'Aromatic_Ring']"
+Methylparaben,COC(=O)c1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516eea0>,"['Hydroxyl', 'Ester', 'Aromatic_Ring']"
+2-Methyltetrahydrofurane,CC1CCCO1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ef10>,[]
+Santonin,CC3C2CCC1(C)C=CC(=O)C(=C1C2OC3=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ef80>,"['Ester', 'Ketone']"
+Salicin,OCC2OC(Oc1ccccc1CO)C(O)C(O)C2O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516eff0>,"['Hydroxyl', 'Aromatic_Ring']"
+1-Iodopropane,CCCI,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f060>,['Halogen']
+Ametryn,CCNc1nc(NC(C)C)nc(SC)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f0d0>,[]
+1-Propanol,CCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f140>,['Hydroxyl']
+Hydroxyprogesterone-17a,CC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3CCC21C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f1b0>,"['Hydroxyl', 'Ketone']"
+2-Pentanol,CCCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f220>,['Hydroxyl']
+benzoin,OC(C(=O)c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f290>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+"2,4-Dimethylphenol",Cc1ccc(O)c(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f300>,"['Hydroxyl', 'Aromatic_Ring']"
+m-Chloronitrobenzene,Clc1cccc(c1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f370>,"['Aromatic_Ring', 'Halogen']"
+ampyrone,Cc2c(N)c(=O)n(c1ccccc1)n2C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f3e0>,"['Primary_Amine', 'Aromatic_Ring']"
+"2,2',4,5'-PCB",Clc1ccc(c(Cl)c1)c2cc(Cl)ccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f450>,"['Aromatic_Ring', 'Halogen']"
+"Hexachloro-1,3-butadiene",ClC(=C(Cl)C(=C(Cl)Cl)Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f4c0>,['Halogen']
+Terbutryn,CCNc1nc(NC(C)(C)C)nc(SC)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f530>,[]
+3-Methyl-2-pentanol,CCC(C)CCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f5a0>,['Hydroxyl']
+2-methylpteridine,Cc2ncc1nccnc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f610>,[]
+Danazol,CC23Cc1cnoc1C=C2CCC4C3CCC5(C)C4CCC5(O)C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f680>,['Hydroxyl']
+1-Iodobutane,CCCCI,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f6f0>,['Halogen']
+2-Bromonapthalene,Brc1ccc2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f760>,"['Aromatic_Ring', 'Halogen']"
+"Digoxin (L1=41,8mg/mL, L2=68,2mg/mL, Z=40,1mg/mL)",CC1OC(CC(O)C1O)OC2C(O)CC(OC2C)OC8C(O)CC(OC7CCC3(C)C(CCC4C3CC(O)C5(C)C(CCC45O)C6=CC(=O)OC6)C7)OC8C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f7d0>,"['Hydroxyl', 'Ester']"
+Benzyltrifluoride,FC(F)(F)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f840>,"['Aromatic_Ring', 'Halogen']"
+Dihexyl phthalate,CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f8b0>,"['Ester', 'Aromatic_Ring']"
+Dibenzothiophene,c1ccc2c(c1)sc3ccccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f920>,['Aromatic_Ring']
+"2,3',4,4'-PCB",Clc1ccc(c(Cl)c1)c2ccc(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516f990>,"['Aromatic_Ring', 'Halogen']"
+"2,2',3,3',4,4'-PCB",Clc1ccc(c(Cl)c1Cl)c2ccc(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fa00>,"['Aromatic_Ring', 'Halogen']"
+Warfarin,CC(=O)CC(c1ccccc1)c3c(O)c2ccccc2oc3=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fa70>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+hydrobenzoin,c1ccccc1C(O)C(O)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fae0>,"['Hydroxyl', 'Aromatic_Ring']"
+Dimethyl phthalate,COC(=O)c1ccccc1C(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fb50>,"['Ester', 'Aromatic_Ring']"
+Ethyl octanoate,CCCCCCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fbc0>,['Ester']
+Diethyldisulfide,CCSSCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fc30>,[]
+"1,2-Diethoxyethane ",CCOCCOCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fca0>,[]
+"1,2,4,5-Tetrachlorobenzene",Clc1cc(Cl)c(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fd10>,"['Aromatic_Ring', 'Halogen']"
+p-benzidine,Nc1ccc(cc1)c2ccc(N)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fd80>,"['Primary_Amine', 'Aromatic_Ring']"
+1-Heptene,CCCCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fdf0>,[]
+Ethirimol,CCCCc1c(C)nc(NCC)[nH]c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fe60>,[]
+Pentobarbital,O=C1NC(=O)NC(=O)C1(CC)C(C)CCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53516fed0>,['Amide']
+o-Chloroaniline,Nc1ccccc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53516ff40>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+3-Chloroanisole,COc1cccc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170040>,"['Aromatic_Ring', 'Halogen']"
+Pebulate,CCCCN(CC)C(=O)SCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351700b0>,[]
+Butyl acetate,CCCCOC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535170120>,['Ester']
+Prednisolone,CC12CC(O)C3C(CCC4=CC(=O)C=CC34C)C2CCC1(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535170190>,"['Hydroxyl', 'Ketone']"
+Bromodichloromethane,BrC(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535170200>,['Halogen']
+adrenosterone,CC34CC(=O)C1C(CCC2=CC(=O)CCC12C)C3CCC4(=O),<rdkit.Chem.rdchem.Mol object at 0x7fc535170270>,['Ketone']
+p-terphenyl,c1ccc(cc1)c2ccc(cc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc5351702e0>,['Aromatic_Ring']
+p-Hydroxybenzaldehyde,Oc1ccc(C=O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170350>,"['Hydroxyl', 'Aromatic_Ring']"
+Bromomethane,CBr,<rdkit.Chem.rdchem.Mol object at 0x7fc5351703c0>,['Halogen']
+Perfluidone,Cc1cc(ccc1NS(=O)(=O)C(F)(F)F)S(=O)(=O)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535170430>,"['Aromatic_Ring', 'Halogen']"
+Coumachlor,CC(=O)CC(c1ccc(Cl)cc1)c2c(O)c3ccccc3oc2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351704a0>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring', 'Halogen']"
+2-Ethylnaphthalene,CCc1ccc2ccccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170510>,['Aromatic_Ring']
+5-methylcytosine,Nc1c(C)c[nH]c(=O)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170580>,['Primary_Amine']
+"2,3,4,5,6-PCB",Clc2c(Cl)c(Cl)c(c1ccccc1)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351705f0>,"['Aromatic_Ring', 'Halogen']"
+benodanil,c1c(NC(=O)c2ccccc2(I))cccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170660>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Riboflavin,Cc3cc2nc1c(=O)[nH]c(=O)nc1n(CC(O)C(O)C(O)CO)c2cc3C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351706d0>,"['Hydroxyl', 'Aromatic_Ring']"
+o-Fluorobromobenzene,Fc1ccccc1Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535170740>,"['Aromatic_Ring', 'Halogen']"
+"2,4-Dichlorophenol ",Oc1ccc(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351707b0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Permethrin,CC1(C)C(C=C(Cl)Cl)C1C(=O)OCc2cccc(Oc3ccccc3)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535170820>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+piroxicam,CN2C(=C(O)c1ccccc1S2(=O)=O)C(=O)Nc3ccccn3,<rdkit.Chem.rdchem.Mol object at 0x7fc535170890>,"['Hydroxyl', 'Amide', 'Aromatic_Ring']"
+3-Propanoyloxymethylphenytoin,O=C1N(COC(=O)CC)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc535170900>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Cyclopentane,C1CCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170970>,[]
+o-Toluidine,Cc1ccccc1N,<rdkit.Chem.rdchem.Mol object at 0x7fc5351709e0>,"['Primary_Amine', 'Aromatic_Ring']"
+Estragole,c1(OC)ccc(CC=C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170a50>,['Aromatic_Ring']
+karbutilate,CN(C)C(=O)Nc1cccc(OC(=O)NC(C)(C)C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170ac0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+3-Methyl-1-Butene,CC(C)C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535170b30>,[]
+2-Hydroxypyridine,Oc1ccccn1,<rdkit.Chem.rdchem.Mol object at 0x7fc535170ba0>,['Hydroxyl']
+Ethane,CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535170c10>,[]
+"1,2-Dichlorobenzene",Clc1ccccc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535170c80>,"['Aromatic_Ring', 'Halogen']"
+mercaptobenzothiazole,Sc2nc1ccccc1s2,<rdkit.Chem.rdchem.Mol object at 0x7fc535170cf0>,['Aromatic_Ring']
+"2,2',3,3',4,4',5,5',6,6'-PCB",Clc1c(Cl)c(Cl)c(c(Cl)c1Cl)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535170d60>,"['Aromatic_Ring', 'Halogen']"
+Methoxsalen,COc2c1occc1cc3ccc(=O)oc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535170dd0>,['Aromatic_Ring']
+Acetamide,CC(=O)N,<rdkit.Chem.rdchem.Mol object at 0x7fc535170e40>,['Primary_Amine']
+1-Methylnaphthalene,Cc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535170eb0>,['Aromatic_Ring']
+Napropamide,CCN(CC)C(=O)C(C)Oc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535170f20>,['Aromatic_Ring']
+"3,3-Dimethyl-2-butanol",CC(O)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535170f90>,['Hydroxyl']
+Methyl pentanoate,CCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535171000>,['Ester']
+Menadione,CC2=CC(=O)c1ccccc1C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535171070>,"['Ketone', 'Aromatic_Ring']"
+Phenanthrene,c1ccc2c(c1)ccc3ccccc32,<rdkit.Chem.rdchem.Mol object at 0x7fc5351710e0>,['Aromatic_Ring']
+"2,4-Dimethylpyridine",Cc1ccnc(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535171150>,[]
+1-Nonanol,CCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351711c0>,['Hydroxyl']
+Dibromomethane,BrCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc535171230>,['Halogen']
+Dexamethasone,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351712a0>,"['Hydroxyl', 'Ketone', 'Halogen']"
+"2,6-Dimethylnaphthalene ",Cc1ccc2cc(C)ccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535171310>,['Aromatic_Ring']
+Butylate,CCSC(=O)N(CC(C)C)CC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535171380>,[]
+nitroglycerin,O=N(=O)OCC(CON(=O)=O)ON(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351713f0>,[]
+m-Nitroaniline,Nc1cccc(c1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535171460>,"['Primary_Amine', 'Aromatic_Ring']"
+1-Chlorobutane,CCCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351714d0>,['Halogen']
+triforine,ClC(Cl)(Cl)C(NC=O)N1C=CN(C=C1)C(NC=O)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535171540>,"['Amide', 'Halogen']"
+Fluridone,Cn2cc(c1ccccc1)c(=O)c(c2)c3cccc(c3)C(F)(F)F,<rdkit.Chem.rdchem.Mol object at 0x7fc5351715b0>,"['Aromatic_Ring', 'Halogen']"
+6-aminochrysene,Nc3cc2c1ccccc1ccc2c4ccccc34,<rdkit.Chem.rdchem.Mol object at 0x7fc535171620>,"['Primary_Amine', 'Aromatic_Ring']"
+Estrone,CC12CCC3C(CCc4cc(O)ccc34)C2CCC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535171690>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+RTI 17,CCN2c1ccccc1N(C)C(=S)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535171700>,['Aromatic_Ring']
+"1,2-Propylene oxide",CC1CO1,<rdkit.Chem.rdchem.Mol object at 0x7fc535171770>,[]
+Nitrazepam,O=C3CN=C(c1ccccc1)c2cc(ccc2N3)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351717e0>,"['Amide', 'Aromatic_Ring']"
+"1,3-diethylthiourea",CCNC(=S)NCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535171850>,[]
+"2,3,5-Trichlorophenol",Oc1cc(Cl)cc(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351718c0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Propyl propanoate,CCCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc535171930>,['Ester']
+Aniline,Nc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351719a0>,"['Primary_Amine', 'Aromatic_Ring']"
+"1,5-Dimethlnapthalene",Cc1cccc2c(C)cccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535171a10>,['Aromatic_Ring']
+hydrochlorothiazide,NS(=O)(=O)c2cc1c(NCNS1(=O)=O)cc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535171a80>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+Acenapthylene,C1=Cc2cccc3cccc1c23,<rdkit.Chem.rdchem.Mol object at 0x7fc535171af0>,['Aromatic_Ring']
+Ethyl butyrate,CCCCCOC(=O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535171b60>,['Ester']
+Atratone,CCNc1nc(NC(C)C)nc(OC)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535171bd0>,[]
+Benzo(a)pyrene,c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45,<rdkit.Chem.rdchem.Mol object at 0x7fc535171c40>,['Aromatic_Ring']
+Bromoethane,CCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc535171cb0>,['Halogen']
+3-Hexyne,CCC#CCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535171d20>,[]
+Digitoxin,CC1OC(CC(O)C1O)OC2C(O)CC(OC2C)OC8C(O)CC(OC7CCC3(C)C(CCC4C3CCC5(C)C(CCC45O)C6=CC(=O)OC6)C7)OC8C,<rdkit.Chem.rdchem.Mol object at 0x7fc535171d90>,"['Hydroxyl', 'Ester']"
+2-Methyl-1-Butene,CCC(=C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535171e00>,[]
+8-quinolinol,Oc1cccc2cccnc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535171e70>,"['Hydroxyl', 'Aromatic_Ring']"
+"1,2,3,4-Tetrahydronapthalene",C1CCc2ccccc2C1,<rdkit.Chem.rdchem.Mol object at 0x7fc535171ee0>,['Aromatic_Ring']
+phenolphthalein,Oc1ccc(cc1)C2(OC(=O)c3ccccc23)c4ccc(O)cc4,<rdkit.Chem.rdchem.Mol object at 0x7fc535171f50>,"['Hydroxyl', 'Ester', 'Aromatic_Ring']"
+"1,3,5-Tribromobenzene",Brc1cc(Br)cc(Br)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535171fc0>,"['Aromatic_Ring', 'Halogen']"
+Ronnel,COP(=S)(OC)Oc1cc(Cl)c(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535172030>,"['Aromatic_Ring', 'Halogen']"
+methylthiouracil,Cc1cc(=O)[nH]c(=S)[nH]1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351720a0>,[]
+Eugenol,COc1cc(CC=C)ccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172110>,"['Hydroxyl', 'Aromatic_Ring']"
+5-Allyl-5-isopropylbarbital,O=C1NC(=O)NC(=O)C1(C(C)C)CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535172180>,['Amide']
+Pyrene,c1cc2ccc3cccc4ccc(c1)c2c34,<rdkit.Chem.rdchem.Mol object at 0x7fc5351721f0>,['Aromatic_Ring']
+"1,1-Diethoxyethane ",CCOC(C)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535172260>,[]
+Clomazone,CC1(C)CON(Cc2ccccc2Cl)C1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351722d0>,"['Aromatic_Ring', 'Halogen']"
+2-Butoxyethanol,CCCCOCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535172340>,['Hydroxyl']
+Quintozene,Clc1c(Cl)c(Cl)c(N(=O)=O)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351723b0>,"['Aromatic_Ring', 'Halogen']"
+Androsterone,CC12CCC(O)CC1CCC3C2CCC4(C)C3CCC4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172420>,"['Hydroxyl', 'Ketone']"
+Flurochloridone,FC(F)(F)c1cccc(c1)N2CC(CCl)C(Cl)C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172490>,"['Aromatic_Ring', 'Halogen']"
+Quinoline,c1ccc2ncccc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172500>,['Aromatic_Ring']
+methyl gallate,COC(=O)c1cc(O)c(O)c(O)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172570>,"['Hydroxyl', 'Ester', 'Aromatic_Ring']"
+fluconazole,OC(Cn1cncn1)(Cn2cncn2)c3ccc(F)cc3F,<rdkit.Chem.rdchem.Mol object at 0x7fc5351725e0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Chlorzoxazone,Clc2ccc1oc(=O)[nH]c1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535172650>,"['Aromatic_Ring', 'Halogen']"
+"2,2',3,4,4',5',6-PCB",Clc1ccc(c(Cl)c1)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351726c0>,"['Aromatic_Ring', 'Halogen']"
+alloxan,O=C1NC(=O)C(=O)C(=O)N1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172730>,"['Amide', 'Ketone']"
+"1,3-Dichloropropane",ClCCCCl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351727a0>,['Halogen']
+m-Fluorobromobenzene,Fc1cccc(Br)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172810>,"['Aromatic_Ring', 'Halogen']"
+p-Chlorobromobenzene,Clc1ccc(Br)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172880>,"['Aromatic_Ring', 'Halogen']"
+"2,3-Dimethylbutane",CC(C)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351728f0>,[]
+1-Butene,CCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535172960>,[]
+"2,2',3,4,5,5'-PCB",Clc1ccc(Cl)c(c1)c2cc(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351729d0>,"['Aromatic_Ring', 'Halogen']"
+cytosine,Nc1cc[nH]c(=O)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172a40>,['Primary_Amine']
+"1,1,2-Trichlorotrifluoroethane",FC(F)(Cl)C(F)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535172ab0>,['Halogen']
+Propionitrile,CCC#N,<rdkit.Chem.rdchem.Mol object at 0x7fc535172b20>,[]
+"O,P'-DDD",ClC(Cl)C(c1ccc(Cl)cc1)c2ccccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535172b90>,"['Aromatic_Ring', 'Halogen']"
+o-Nitroanisole,COc1ccccc1N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172c00>,['Aromatic_Ring']
+Prasterone,CC34CCC1C(CC=C2CC(O)CCC12C)C3CCC4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172c70>,"['Hydroxyl', 'Ketone']"
+Procymidone,CC12CC2(C)C(=O)N(C1=O)c3cc(Cl)cc(Cl)c3,<rdkit.Chem.rdchem.Mol object at 0x7fc535172ce0>,"['Aromatic_Ring', 'Halogen']"
+Benzo[ghi]perylene,c1cc2ccc3ccc4ccc5cccc6c(c1)c2c3c4c56,<rdkit.Chem.rdchem.Mol object at 0x7fc535172d50>,['Aromatic_Ring']
+Dinoseb,CCC(C)c1cc(cc(N(=O)=O)c1O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172dc0>,"['Hydroxyl', 'Aromatic_Ring']"
+meconin,c1c(OC)c(OC)C2C(=O)OCC2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535172e30>,['Ester']
+Glycerol,OCC(O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535172ea0>,['Hydroxyl']
+Guaiacol,COc1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535172f10>,"['Hydroxyl', 'Aromatic_Ring']"
+chlorpyrifos,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535172f80>,['Halogen']
+9-Methylanthracene,Cc1c2ccccc2cc3ccccc13,<rdkit.Chem.rdchem.Mol object at 0x7fc535172ff0>,['Aromatic_Ring']
+Antipyrene,Cc1cc(=O)n(c2ccccc2)n1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173060>,['Aromatic_Ring']
+Methyl butyl ether,CCCCOC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351730d0>,[]
+7-methylpteridine,Cc2cnc1cncnc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc535173140>,[]
+simazine,CCNc1nc(Cl)nc(NCC)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351731b0>,['Halogen']
+"N,N-Dimethylacetamide",CN(C)C(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173220>,[]
+Simetryn,CSc1nc(nc(n1)N(C)C)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173290>,[]
+Ethylene,C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173300>,[]
+"3,3-Dimethyl-1-butanol",CC(C)(C)CCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535173370>,['Hydroxyl']
+5-Allyl-5-ethylbarbital,O=C1NC(=O)NC(=O)C1(CC)CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351733e0>,['Amide']
+"2,3,4-Trichlorophenol",Oc1ccc(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535173450>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Anisole,COc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351734c0>,['Aromatic_Ring']
+chloropropylate,c1ccc(Cl)cc1C(c2ccc(Cl)cc2)(O)C(=O)OC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173530>,"['Hydroxyl', 'Ester', 'Aromatic_Ring', 'Halogen']"
+aldosterone,CC13CCC(=O)C=C1CCC4C2CCC(C(=O)CO)C2(CC(O)C34)C=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351735a0>,"['Hydroxyl', 'Ketone']"
+Difenoxuron,COc2ccc(Oc1ccc(NC(=O)N(C)C)cc1)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535173610>,"['Amide', 'Aromatic_Ring']"
+4-Ethyltoluene,CCc1ccc(C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173680>,['Aromatic_Ring']
+Diisopropylsulfide,CC(C)SC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351736f0>,[]
+"1,3-Dinitrobenzene",O=N(=O)c1cccc(c1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535173760>,['Aromatic_Ring']
+Ethion,CCOP(=S)(OCC)SCSP(=S)(OCC)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351737d0>,[]
+probarbital,CCC1(C(C)C)C(=O)NC(=O)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535173840>,['Amide']
+cortisone acetate,CC(=O)OCC(=O)C3(O)CCC4C2CCC1=CC(=O)CCC1(C)C2C(=O)CC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351738b0>,"['Hydroxyl', 'Ester', 'Ketone']"
+Metronidazole,Cc1ncc(N(=O)=O)n1CCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535173920>,['Hydroxyl']
+p-Chloroaniline,Nc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173990>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+"2,2-Dimethylpentanol",CCCC(C)(C)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535173a00>,['Hydroxyl']
+Furane,c1ccoc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173a70>,[]
+Methoproptryne,COCCCNc1nc(NC(C)C)nc(SC)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173ae0>,[]
+Norea,CN(C)C(=O)NC1CC2CC1C3CCCC23,<rdkit.Chem.rdchem.Mol object at 0x7fc535173b50>,['Amide']
+t-Butylbenzene,CC(C)(C)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173bc0>,['Aromatic_Ring']
+kebuzone,CC(=O)CCC1C(=O)N(N(C1=O)c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc535173c30>,"['Ketone', 'Aromatic_Ring']"
+prednisolone acetate,CC(=O)OCC(=O)C3(O)CCC4C2CCC1=CC(=O)C=CC1(C)C2C(O)CC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173ca0>,"['Hydroxyl', 'Ester', 'Ketone']"
+Methyl propyl ether,CCCOC,<rdkit.Chem.rdchem.Mol object at 0x7fc535173d10>,[]
+Isopropyl acetate,CC(C)OC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173d80>,['Ester']
+Bromobenzene,Brc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173df0>,"['Aromatic_Ring', 'Halogen']"
+Ethyl-p-hydroxybenzoate,CCOC(=O)c1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535173e60>,"['Hydroxyl', 'Ester', 'Aromatic_Ring']"
+3-Butanoyloxymethylphenytoin,O=C1N(COC(=O)CCC)C(=O)C(N1)(c2ccccc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc535173ed0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+testosterone propionate,CCC(=O)OC3CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc535173f40>,"['Ester', 'Ketone']"
+Coronene,c1cc2ccc3ccc4ccc5ccc6ccc1c7c2c3c4c5c67,<rdkit.Chem.rdchem.Mol object at 0x7fc535174040>,['Aromatic_Ring']
+allopurinol,O=c1[nH]cnc2[nH]ncc12,<rdkit.Chem.rdchem.Mol object at 0x7fc5351740b0>,[]
+Chloroethylene,ClC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174120>,['Halogen']
+diphenamid,CN(C)C(=O)C(c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535174190>,['Aromatic_Ring']
+Tetrabromomethane,BrC(Br)(Br)Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535174200>,['Halogen']
+RTI 22,CCN2c1cc(N(C)C)cc(C)c1NC(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535174270>,"['Amide', 'Aromatic_Ring']"
+phthalimide,O=C1NC(=O)c2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc5351742e0>,"['Amide', 'Aromatic_Ring']"
+Fenarimol,OC(c1ccc(Cl)cc1)(c2cncnc2)c3ccccc3Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535174350>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Methyl benzoate,COC(=O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351743c0>,"['Ester', 'Aromatic_Ring']"
+1-methyluracil,Cn1ccc(=O)[nH]c1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535174430>,[]
+oxyphenbutazone,CCCCC1C(=O)N(N(C1=O)c2ccc(O)cc2)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc5351744a0>,"['Hydroxyl', 'Aromatic_Ring']"
+"2,2',3,5'-PCB",Clc1ccc(Cl)c(c1)c2cccc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535174510>,"['Aromatic_Ring', 'Halogen']"
+Quinethazone,CCC2NC(=O)c1cc(c(Cl)cc1N2)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535174580>,"['Primary_Amine', 'Amide', 'Aromatic_Ring', 'Halogen']"
+Diuron,CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351745f0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Cyclopentene,C1CC=CC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535174660>,[]
+alloxantin,C1(=O)NC(=O)NC(=O)C1(O)C2(O)C(=O)NC(=O)NC2(=O),<rdkit.Chem.rdchem.Mol object at 0x7fc5351746d0>,"['Hydroxyl', 'Amide']"
+Nonane,CCCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535174740>,[]
+2-Chlorophenol,Oc1ccccc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351747b0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+5-Methylchrysene,c1cccc2c3c(C)cc4ccccc4c3ccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535174820>,['Aromatic_Ring']
+Phenetole,CCOc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535174890>,['Aromatic_Ring']
+ethyl cinnamate,CCOC(=O)C=Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535174900>,"['Ester', 'Aromatic_Ring']"
+Terbacil,Cc1[nH]c(=O)n(c(=O)c1Cl)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174970>,['Halogen']
+Clonazepam,Clc1ccccc1C2=NCC(=O)Nc3ccc(cc23)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351749e0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+p-Toluenesulfonamide,Cc1ccc(cc1)S(=O)(=O)N,<rdkit.Chem.rdchem.Mol object at 0x7fc535174a50>,"['Primary_Amine', 'Aromatic_Ring']"
+Chlorbufam,CC(OC(=O)Nc1cccc(Cl)c1)C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174ac0>,"['Ester', 'Amide', 'Aromatic_Ring', 'Halogen']"
+2-Methylheptane,CCCCCC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174b30>,[]
+Cyhalothrin,CC1(C)C(C=C(Cl)C(F)(F)F)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535174ba0>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Apazone,CCCC1C(=O)N3N(C1=O)c2cc(C)ccc2N=C3N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174c10>,['Aromatic_Ring']
+Diazepam,CN2C(=O)CN=C(c1ccccc1)c3cc(Cl)ccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535174c80>,"['Aromatic_Ring', 'Halogen']"
+2-Methyl-3-pentanol,CCC(O)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174cf0>,['Hydroxyl']
+fensulfothion,CCOP(=S)(OCC)Oc1ccc(cc1)S(C)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535174d60>,['Aromatic_Ring']
+borneol,CC1(C)C2CCC1(C)C(O)C2,<rdkit.Chem.rdchem.Mol object at 0x7fc535174dd0>,['Hydroxyl']
+Testosterone,CC12CCC3C(CCC4=CC(=O)CCC34C)C2CCC1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535174e40>,"['Hydroxyl', 'Ketone']"
+Heptane,CCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535174eb0>,[]
+1-Napthol,Oc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc535174f20>,"['Hydroxyl', 'Aromatic_Ring']"
+"cis-1,2-Dimethylcyclohexane",C/C1CCCCC1\C,<rdkit.Chem.rdchem.Mol object at 0x7fc535174f90>,[]
+Trimazosin,COc2cc1c(N)nc(nc1c(OC)c2OC)N3CCN(CC3)C(=O)OCC(C)(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535175000>,"['Primary_Amine', 'Hydroxyl', 'Ester', 'Aromatic_Ring']"
+Cholanthrene,C1Cc2c3c1cccc3cc4c2ccc5ccccc54,<rdkit.Chem.rdchem.Mol object at 0x7fc535175070>,['Aromatic_Ring']
+Medrogestone,CC(=O)C3(C)CCC4C2C=C(C)C1=CC(=O)CCC1(C)C2CCC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351750e0>,['Ketone']
+2-Heptanone,CCCCCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535175150>,['Ketone']
+Acephate,COP(=O)(NC(C)=O)SC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351751c0>,['Amide']
+DEF,CCCCSP(=O)(SCCCC)SCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535175230>,[]
+phthalamide,c1cC2C(=O)NC(=O)C2cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351752a0>,['Amide']
+Trichlomethiazide,NS(=O)(=O)c2cc1c(NC(NS1(=O)=O)C(Cl)Cl)cc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535175310>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+2-Methy-2-Butene,CC=C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535175380>,[]
+"1,2,4-Trimethylbenzene",Cc1ccc(C)c(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351753f0>,['Aromatic_Ring']
+"2,4,5-Trichlorophenol ",Oc1cc(Cl)c(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535175460>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+phenanthridine,c1ccc2c(c1)cnc3ccccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc5351754d0>,['Aromatic_Ring']
+3-Methyl-3-hexanol,CCCC(C)(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535175540>,['Hydroxyl']
+Octane,CCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351755b0>,[]
+Anthracene,c1ccc2cc3ccccc3cc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535175620>,['Aromatic_Ring']
+Phenylhydrazine,NNc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535175690>,"['Primary_Amine', 'Aromatic_Ring']"
+Propionaldehyde,CCC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535175700>,[]
+Cyclooctane,C1CCCCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535175770>,[]
+"5,5-Diallylbarbital",O=C1NC(=O)NC(=O)C1(CC=C)CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351757e0>,['Amide']
+Trichloromethane,ClC(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535175850>,['Halogen']
+thiouracil,Sc1nccc(=O)[nH]1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351758c0>,[]
+Pencycuron,Clc1ccc(CN(C2CCCC2)C(=O)Nc3ccccc3)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535175930>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+1-Methylcyclohexene,CC1=CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351759a0>,[]
+2-Ethylhexanal,CCCCC(CC)C=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535175a10>,[]
+Khellin,COc2c1occc1c(OC)c3c(=O)cc(C)oc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535175a80>,['Aromatic_Ring']
+5-Ethyl-5-(3-methylbutyl)barbital,O=C1NC(=O)NC(=O)C1(CC)CCC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535175af0>,['Amide']
+Benzo(j)fluoranthene,c1ccc2c3c(ccc2c1)c4cccc5cccc3c45,<rdkit.Chem.rdchem.Mol object at 0x7fc535175b60>,['Aromatic_Ring']
+2-Ethylbutanal,CCC(CC)C=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535175bd0>,[]
+Dipropyl ether,CCCOCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535175c40>,[]
+1-Tetradecanol,CCCCCCCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535175cb0>,['Hydroxyl']
+"2,3,6-Trichlorophenol",Oc1c(Cl)ccc(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535175d20>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Urea,NC(=O)N,<rdkit.Chem.rdchem.Mol object at 0x7fc535175d90>,['Primary_Amine']
+1-Pentyne,CCCC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535175e00>,[]
+"1,3-Dibromobenzene",Brc1cccc(Br)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535175e70>,"['Aromatic_Ring', 'Halogen']"
+1-Octadecanol,CCCCCCCCCCCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535175ee0>,['Hydroxyl']
+Acetanilide,CC(=O)Nc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535175f50>,"['Amide', 'Aromatic_Ring']"
+hematein,c1cc(O)c(O)c2OCC3(O)CC4=CC(=O)C(O)=CC4=C3c21,<rdkit.Chem.rdchem.Mol object at 0x7fc535175fc0>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+Isonazid,c1nccc(C(=O)NN)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176030>,"['Primary_Amine', 'Amide']"
+hydroxychlordene,OC1C=CC2C1C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351760a0>,"['Hydroxyl', 'Halogen']"
+Isopentyl formate,CC(C)CCOC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535176110>,['Ester']
+Acetophenone,CC(=O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176180>,"['Ketone', 'Aromatic_Ring']"
+biquinoline,c2ccc1nc(ccc1c2)c4ccc3ccccc3n4,<rdkit.Chem.rdchem.Mol object at 0x7fc5351761f0>,['Aromatic_Ring']
+Triethyl phosphate,CCOP(=O)(OCC)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535176260>,[]
+D-fenchone,CC2(C)C1CCC(C)(C1)C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351762d0>,['Ketone']
+7-methoxypteridine,COc2cnc1cncnc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc535176340>,[]
+Chlordene,ClC2=C(Cl)C3(Cl)C1C=CCC1C2(Cl)C3(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351763b0>,['Halogen']
+2-Nitropropane,CC(C)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535176420>,[]
+Carbazole,c1ccc2c(c1)[nH]c3ccccc32,<rdkit.Chem.rdchem.Mol object at 0x7fc535176490>,['Aromatic_Ring']
+Erythritol,OCC(O)C(O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535176500>,['Hydroxyl']
+Risocaine,CCCOC(=O)c1ccc(N)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176570>,"['Primary_Amine', 'Ester', 'Aromatic_Ring']"
+Azodrin,CNC(=O)C=C(C)OP(=O)(OC)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351765e0>,['Amide']
+Succinimide,O=C1CCC(=O)N1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176650>,['Amide']
+"2,3-Dimethylpentane",CCC(C)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351766c0>,[]
+bupirimate,CCCCc1c(C)nc(NCC)nc1OS(=O)(=O)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535176730>,[]
+RTI 16,CCN2c1ncccc1N(C)C(=S)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc5351767a0>,[]
+RTI 9,O2c1ccccc1N(CC)C(=O)c3ccccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535176810>,['Aromatic_Ring']
+Tetrahydropyran,C1CCOCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176880>,[]
+1-Heptyne,CCCCCC#C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351768f0>,[]
+osthole,c1cc2ccc(OC)c(CC=C(C)(C))c2oc1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535176960>,['Aromatic_Ring']
+3-Methylcholanthrene,c1cc(C)cc2c1c3cc4cccc5CCc(c45)c3cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351769d0>,['Aromatic_Ring']
+Ethyl benzoate,CCOC(=O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176a40>,"['Ester', 'Aromatic_Ring']"
+1-Chloro-2-methylpropane,ClCC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535176ab0>,['Halogen']
+Ethinyl estradiol,CC34CCC1C(CCc2cc(O)ccc12)C3CCC4(O)C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535176b20>,"['Hydroxyl', 'Aromatic_Ring']"
+methyl laurate,CCCCCCCCCCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc535176b90>,['Ester']
+Di-n-propylsulfide,CCCSCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535176c00>,[]
+Napthacene,c1ccc2cc3cc4ccccc4cc3cc2c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176c70>,['Aromatic_Ring']
+1-Bromopentane,CCCCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc535176ce0>,['Halogen']
+trans-2-Heptene,CCCC/C=C/C,<rdkit.Chem.rdchem.Mol object at 0x7fc535176d50>,[]
+Metranidazole,Cc1ncc(N(=O)=O)n1CCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535176dc0>,['Hydroxyl']
+Pentylcyclopentane,CCCCCC1CCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176e30>,[]
+"2,2',3,5,5',6-PCB",Clc1ccc(Cl)c(c1)c2c(Cl)c(Cl)cc(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535176ea0>,"['Aromatic_Ring', 'Halogen']"
+5-Ethyl-5-isopropylbarbituric acid,O=C1NC(=O)NC(=O)C1(CC)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535176f10>,['Amide']
+"1,1,1-Trichloroethane",CC(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535176f80>,['Halogen']
+Monolinuron,CON(C)C(=O)Nc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535176ff0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Cyclohexyl-5-spirobarbituric acid,O=C2NC(=O)C1(CCCCC1)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc535177060>,['Amide']
+dimetan,CN(C)C(=O)OC1=CC(=O)CC(C)(C)C1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351770d0>,"['Ester', 'Ketone']"
+4-Bromotoluene,Cc1ccc(Br)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177140>,"['Aromatic_Ring', 'Halogen']"
+Diethyl ether,CCOCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351771b0>,[]
+Rovral,CC(C)NC(=O)N1CC(=O)N(C1=O)c2cc(Cl)cc(Cl)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535177220>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Benfluralin,CCCCN(CC)c1c(cc(cc1N(=O)=O)C(F)(F)F)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535177290>,"['Aromatic_Ring', 'Halogen']"
+"2,4,6-Trimethylphenol",Cc1cc(C)c(O)c(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177300>,"['Hydroxyl', 'Aromatic_Ring']"
+Benzene,c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177370>,['Aromatic_Ring']
+p-Chloroiodobenzene,Clc1ccc(I)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351773e0>,"['Aromatic_Ring', 'Halogen']"
+Metoxuron,COc1ccc(NC(=O)N(C)C)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535177450>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+propachlor,CC(C)N(C(=O)CCl)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351774c0>,"['Aromatic_Ring', 'Halogen']"
+Styrene,C=Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177530>,['Aromatic_Ring']
+Dimethoxymethane,COCOC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351775a0>,[]
+o-Xylene,Cc1ccccc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535177610>,['Aromatic_Ring']
+Butan-2-ol,CCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535177680>,['Hydroxyl']
+"1,4-Benzenediol",Oc1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351776f0>,"['Hydroxyl', 'Aromatic_Ring']"
+estriol,CC34CCC1C(CCc2cc(O)ccc12)C3CC(O)C4O,<rdkit.Chem.rdchem.Mol object at 0x7fc535177760>,"['Hydroxyl', 'Aromatic_Ring']"
+Benzo(b)fluorene,C1c2ccccc2c3cc4ccccc4cc13,<rdkit.Chem.rdchem.Mol object at 0x7fc5351777d0>,['Aromatic_Ring']
+hydantoin,O=C1CNC(=O)N1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177840>,['Amide']
+4-hexylresorcinol,c1(O)cc(O)ccc1CCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351778b0>,"['Hydroxyl', 'Aromatic_Ring']"
+allicin,C=CCS(=O)SCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535177920>,[]
+Coumaphos,CCOP(=S)(OCC)Oc2ccc1oc(=O)c(Cl)c(C)c1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535177990>,"['Aromatic_Ring', 'Halogen']"
+"5,6-Dimethylchrysene",Cc1c(C)c2c3ccccc3ccc2c4ccccc14,<rdkit.Chem.rdchem.Mol object at 0x7fc535177a00>,['Aromatic_Ring']
+Betamethasone-17-valerate,CCCCC(=O)OC3(C(C)CC4C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC34C)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535177a70>,"['Hydroxyl', 'Ester', 'Ketone', 'Halogen']"
+uric acid,O=c2[nH]c(=O)c1[nH]c(=O)[nH]c1[nH]2,<rdkit.Chem.rdchem.Mol object at 0x7fc535177ae0>,[]
+"2,3,4,6-Tetrachlorophenol",Oc1c(Cl)cc(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535177b50>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+"1,3-Dichlorobenzene",Clc1cccc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177bc0>,"['Aromatic_Ring', 'Halogen']"
+DDT,Clc1ccc(cc1)C(c2ccc(Cl)cc2)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535177c30>,"['Aromatic_Ring', 'Halogen']"
+Isobutyl formate,CC(C)COC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535177ca0>,['Ester']
+thioanisole,c1ccccc1SC,<rdkit.Chem.rdchem.Mol object at 0x7fc535177d10>,['Aromatic_Ring']
+RTI 13,CCN2c1nc(C)cc(C(F)(F)F)c1NC(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535177d80>,"['Amide', 'Halogen']"
+Hexane,CCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535177df0>,[]
+methyl nicotinate,COC(=O)c1cccnc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535177e60>,['Ester']
+Bendroflumethiazide,NS(=O)(=O)c3cc2c(NC(Cc1ccccc1)NS2(=O)=O)cc3C(F)(F)F,<rdkit.Chem.rdchem.Mol object at 0x7fc535177ed0>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+"2,3,3',4,4',5-PCB",Clc1ccc(cc1Cl)c2cc(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535177f40>,"['Aromatic_Ring', 'Halogen']"
+Vinclozolin,CC1(OC(=O)N(C1=O)c2cc(Cl)cc(Cl)c2)C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535178040>,"['Ester', 'Aromatic_Ring', 'Halogen']"
+Cyanazine,CCNc1nc(Cl)nc(NC(C)(C)C#N)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351780b0>,['Halogen']
+Triphenylene,c1ccc2c(c1)c3ccccc3c4ccccc24,<rdkit.Chem.rdchem.Mol object at 0x7fc535178120>,['Aromatic_Ring']
+Dienestrol,CC=C(C(=CC)c1ccc(O)cc1)c2ccc(O)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535178190>,"['Hydroxyl', 'Aromatic_Ring']"
+Di(2-ethylhexyl)-phthalate,CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535178200>,"['Ester', 'Aromatic_Ring']"
+2-Ethyl pyridine,CCc1ccccn1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178270>,[]
+Naled,COP(=O)(OC)OC(Br)C(Cl)(Cl)Br,<rdkit.Chem.rdchem.Mol object at 0x7fc5351782e0>,['Halogen']
+Biphenyl,c1ccc(cc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535178350>,['Aromatic_Ring']
+"2,2',4,4',6,6'-PCB",Clc1cc(Cl)c(c(Cl)c1)c2c(Cl)cc(Cl)cc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351783c0>,"['Aromatic_Ring', 'Halogen']"
+Altretamine,CN(C)c1nc(nc(n1)N(C)C)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535178430>,[]
+"2,4-Dimethyl-2-pentanol ",CC(C)CC(C)(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351784a0>,['Hydroxyl']
+Cycloheptyl-5-spirobarbituric acid,O=C2NC(=O)C1(CCCCCC1)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc535178510>,['Amide']
+Fructose,OCC1OC(O)(CO)C(O)C1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535178580>,['Hydroxyl']
+"3,5-Dimethylphenol",Cc1cc(C)cc(O)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351785f0>,"['Hydroxyl', 'Aromatic_Ring']"
+Barban,ClCC#CCOC(=O)Nc1cccc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178660>,"['Ester', 'Amide', 'Aromatic_Ring', 'Halogen']"
+p-Chloroacetanilide,CC(=O)Nc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351786d0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+"2,2',3,4,5,5',6-PCB",Clc1ccc(Cl)c(c1)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535178740>,"['Aromatic_Ring', 'Halogen']"
+"2,2-Dimethylbutane",CCC(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351787b0>,[]
+N-Methylaniline,CNc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178820>,['Aromatic_Ring']
+"1,4-Pentadiene ",C=CCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535178890>,[]
+Hydrocortisone 21-acetate,CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C,<rdkit.Chem.rdchem.Mol object at 0x7fc535178900>,"['Hydroxyl', 'Ester', 'Ketone']"
+DNOC,Cc1cc(cc(N(=O)=O)c1O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535178970>,"['Hydroxyl', 'Aromatic_Ring']"
+Lorazepam,OC3N=C(c1ccccc1Cl)c2cc(Cl)ccc2NC3=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351789e0>,"['Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+3-Chlorophenol,Oc1cccc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178a50>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+m-Chlorobromobenzene,Clc1cccc(Br)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178ac0>,"['Aromatic_Ring', 'Halogen']"
+chlorothiazide,NS(=O)(=O)c2cc1c(N=CNS1(=O)=O)cc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535178b30>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+5-Methyl-5-ethylbarbituric acid,O=C1NC(=O)NC(=O)C1(C)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535178ba0>,['Amide']
+2-Phenoxyethanol,OCCOc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178c10>,"['Hydroxyl', 'Aromatic_Ring']"
+Diphenylmethane,C(c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535178c80>,['Aromatic_Ring']
+3-Octanol,CCCCCC(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535178cf0>,['Hydroxyl']
+Flumetralin,CCN(Cc1c(F)cccc1Cl)c2c(cc(cc2N(=O)=O)C(F)(F)F)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535178d60>,"['Aromatic_Ring', 'Halogen']"
+Propazine,CC(C)Nc1nc(Cl)nc(NC(C)C)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178dd0>,['Halogen']
+2-Methylpentanol,CCCC(C)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535178e40>,['Hydroxyl']
+2-Methyl-2-hexanol,CCCCC(C)(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535178eb0>,['Hydroxyl']
+Ethylbenzene,CCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535178f20>,['Aromatic_Ring']
+5-(3-Methyl-2-butenyl)-5-ethylbarbital,O=C1NC(=O)NC(=O)C1(CC)CC=C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535178f90>,['Amide']
+Heptachlor,ClC1C=CC2C1C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535179000>,['Halogen']
+butallylonal,CCC(C)C1(CC(Br)=C)C(=O)NC(=O)NC1=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179070>,"['Amide', 'Halogen']"
+Fenpropathrin,CC1(C)C(C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2)C1(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351790e0>,"['Ester', 'Aromatic_Ring']"
+Methoprene,COC(C)(C)CCCC(C)CC=CC(C)=CC(=O)OC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535179150>,['Ester']
+Ethyl propionate,CCOC(=O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc5351791c0>,['Ester']
+Prometryn,CSc1nc(NC(C)C)nc(NC(C)C)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535179230>,[]
+Buturon,CC(C#C)N(C)C(=O)Nc1ccc(Cl)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351792a0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+"2,3-Dimethylnaphthalene",Cc1cc2ccccc2cc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535179310>,['Aromatic_Ring']
+"2,4',5-PCB",Clc1ccc(cc1)c2cc(Cl)ccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535179380>,"['Aromatic_Ring', 'Halogen']"
+"2,3',4,4',5-PCB",Clc1ccc(c(Cl)c1)c2cc(Cl)c(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351793f0>,"['Aromatic_Ring', 'Halogen']"
+2-cyanoguanidine,NC(N)=NC#N,<rdkit.Chem.rdchem.Mol object at 0x7fc535179460>,['Primary_Amine']
+Chloropicrin,ClC(Cl)(Cl)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351794d0>,['Halogen']
+"2,6-PCB",Clc1cccc(Cl)c1c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535179540>,"['Aromatic_Ring', 'Halogen']"
+p-Methoxybenzaldehyde,COc1ccc(C=O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351795b0>,['Aromatic_Ring']
+4-Nitroacetanilide,CC(=O)Nc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179620>,"['Amide', 'Aromatic_Ring']"
+Ethyl heptanoate,CCCCCCC(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535179690>,['Ester']
+p-Hydroxyacetanilide,CC(=O)Nc1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535179700>,"['Hydroxyl', 'Amide', 'Aromatic_Ring']"
+indazole,c2ccc1[nH]ncc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535179770>,['Aromatic_Ring']
+triamcinolone acetonide,CC5(C)OC4CC3C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC3(C)C4(O5)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351797e0>,"['Hydroxyl', 'Ketone', 'Halogen']"
+guanine,Nc2nc1[nH]cnc1c(=O)[nH]2,<rdkit.Chem.rdchem.Mol object at 0x7fc535179850>,['Primary_Amine']
+Methyl acetate,COC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351798c0>,['Ester']
+Stanolone,CC34CCC1C(CCC2CC(=O)CCC12C)C3CCC4O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179930>,"['Hydroxyl', 'Ketone']"
+1-Hexene-3-ol,CCCC(O)C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351799a0>,['Hydroxyl']
+norbormide,OC(C1=CC2C5C(C1C2=C(c3ccccc3)c4ccccn4)C(=O)NC5=O)(c6ccccc6)c7ccccn7,<rdkit.Chem.rdchem.Mol object at 0x7fc535179a10>,"['Hydroxyl', 'Amide', 'Aromatic_Ring']"
+Dibutyl ether,CCCCOCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535179a80>,[]
+1-Dodecanol,CCCCCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc535179af0>,['Hydroxyl']
+RTI 6,CCN2c1nc(N(C)(CCO))ccc1NC(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535179b60>,"['Hydroxyl', 'Amide']"
+2-Methyl-2-pentanol,CCCC(C)(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179bd0>,['Hydroxyl']
+Flucytosine,Nc1nc(=O)[nH]cc1F,<rdkit.Chem.rdchem.Mol object at 0x7fc535179c40>,"['Primary_Amine', 'Halogen']"
+stadacaine,CCCCOc1ccc(C(=O)OCC)c(c1)N(CC)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535179cb0>,"['Ester', 'Aromatic_Ring']"
+2-Methyl-2-heptanol,CCCCCC(C)(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179d20>,['Hydroxyl']
+Hexamethylbenzene,Cc1c(C)c(C)c(C)c(C)c1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535179d90>,['Aromatic_Ring']
+Thymol,CC(C)c1ccc(C)cc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179e00>,"['Hydroxyl', 'Aromatic_Ring']"
+Pteridine,c2cnc1ncncc1n2,<rdkit.Chem.rdchem.Mol object at 0x7fc535179e70>,[]
+Parathion,CCOP(=S)(OCC)Oc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535179ee0>,['Aromatic_Ring']
+Methane,C,<rdkit.Chem.rdchem.Mol object at 0x7fc535179f50>,[]
+indoline,c2ccc1NCCc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535179fc0>,['Aromatic_Ring']
+1-Nitronapthalene,O=N(=O)c1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a030>,['Aromatic_Ring']
+3-Methyl-2-pentanone,CCC(C)C(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a0a0>,['Ketone']
+isoguanine,Nc1nc(O)nc2nc[nH]c12,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a110>,"['Primary_Amine', 'Hydroxyl']"
+bromadiolone,OC(CC(c1ccccc1)c3c(O)c2ccccc2oc3=O)c4ccc(cc4)c5ccc(Br)cc5,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a180>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Nitromethane,CN(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a1f0>,[]
+Triallate,CC(C)N(C(C)C)C(=O)SCC(Cl)=C(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a260>,['Halogen']
+"1,5-Hexadiene ",C=CCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a2d0>,[]
+Indole,c2ccc1[nH]ccc1c2,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a340>,['Aromatic_Ring']
+Androstenedione,CC34CCC1C(CCC2=CC(=O)CCC12C)C3CCC4=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a3b0>,['Ketone']
+1-Hexene,CCCCC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a420>,[]
+Xipamide,Cc1cccc(C)c1NC(=O)c2cc(c(Cl)cc2O)S(N)(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a490>,"['Primary_Amine', 'Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+Ethylcyclohexane,CCC1CCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a500>,[]
+2-Nonanone,CCCCCCCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a570>,['Ketone']
+Mebendazole,COC(=O)Nc2nc1ccc(cc1[nH]2)C(=O)c3ccccc3,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a5e0>,"['Ester', 'Amide', 'Ketone', 'Aromatic_Ring']"
+Chloropham,CC(C)OC(=O)Nc1cccc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a650>,"['Ester', 'Amide', 'Aromatic_Ring', 'Halogen']"
+RTI 12,CCN2c1nc(Cl)ccc1N(C)C(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a6c0>,['Halogen']
+Carbaryl,CNC(=O)Oc1cccc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a730>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Ethyne,C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a7a0>,[]
+"3,5-Dimethylpyridine",Cc1cncc(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a810>,[]
+"1,4-Cyclohexadiene",C1C=CCC=C1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a880>,[]
+Mecarbam,CCOC(=O)N(C)C(=O)CSP(=S)(OCC)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a8f0>,['Ester']
+1-Phenylethanol,CC(O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a960>,"['Hydroxyl', 'Aromatic_Ring']"
+"1,2-Dichloropropane",CC(Cl)CCl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517a9d0>,['Halogen']
+2-Ethyl-2-hexanal,CCCC=C(CC)C=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517aa40>,[]
+Disulfoton,CCOP(=S)(OCC)SCCSCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517aab0>,[]
+methyltestosterone acetate,CC(=O)OC3(C)CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ab20>,"['Ester', 'Ketone']"
+"2,4,6-PCB",Clc1ccc(cc1)c2c(Cl)cccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ab90>,"['Aromatic_Ring', 'Halogen']"
+difluron,Fc1cccc(F)c1C(=O)NC(=O)Nc2ccc(Cl)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ac00>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Triclosan,Oc1cc(Cl)ccc1Oc2ccc(Cl)cc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ac70>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+diisooctyl phthalate,c1(C(=O)OCCCCCC(C)(C))c(C(=O)OCCCCCC(C)(C))cccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ace0>,"['Ester', 'Aromatic_Ring']"
+Corticosterone,CC12CC(O)C3C(CCC4=CC(=O)CCC34C)C2CCC1C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ad50>,"['Hydroxyl', 'Ketone']"
+"1,3,5-Trimethylbenzene ",Cc1cc(C)cc(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517adc0>,['Aromatic_Ring']
+dioctyl phthalate,CCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ae30>,"['Ester', 'Aromatic_Ring']"
+1-Pentadecanol,CCCCCCCCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53517aea0>,['Hydroxyl']
+"2,2',6,6'-PCB",Clc1cccc(Cl)c1c2c(Cl)cccc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517af10>,"['Aromatic_Ring', 'Halogen']"
+"5,5-Dimethylbarbituric acid",O=C1NC(=O)NC(=O)C1(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517af80>,['Amide']
+2-Iodopropane,CC(C)I,<rdkit.Chem.rdchem.Mol object at 0x7fc53517aff0>,['Halogen']
+"1,2-Dinitrobenzene",O=N(=O)c1ccccc1N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b060>,['Aromatic_Ring']
+3-Methyl-2-butanone,CC(C)C(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b0d0>,['Ketone']
+Hexadecane,CCCCCCCCCCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b140>,[]
+"1,8-Cineole",CC12CCC(CC1)C(C)(C)O2,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b1b0>,[]
+Tricyclazole,Cc2cccc3sc1nncn1c23,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b220>,['Aromatic_Ring']
+2-Octanone,CCCCCCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b290>,['Ketone']
+Methyl nonanoate,CCCCCCCCC(=O)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b300>,['Ester']
+"1,4-Difluorobenzene",Fc1ccc(F)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b370>,"['Aromatic_Ring', 'Halogen']"
+Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)c3ccccc13,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b3e0>,"['Amide', 'Aromatic_Ring']"
+Trifluralin,CCCN(CCC)c1c(cc(cc1N(=O)=O)C(F)(F)F)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b450>,"['Aromatic_Ring', 'Halogen']"
+Ethanol,CCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b4c0>,['Hydroxyl']
+Cyclopentyl-5-spirobarbituric acid,O=C2NC(=O)C1(CCCC1)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b530>,['Amide']
+Carbetamide,c1c(NC(=O)OC(C)C(=O)NCC)cccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b5a0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+phenothrin,CC(C)=CC3C(C(=O)OCc2cccc(Oc1ccccc1)c2)C3(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b610>,"['Ester', 'Aromatic_Ring']"
+Cycluron,CN(C)C(=O)NC1CCCCCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b680>,['Amide']
+Mirex,ClC1(C2(Cl)C3(Cl)C4(Cl)C5(Cl)C1(Cl)C3(Cl)Cl)C5(Cl)C(Cl)(Cl)C24Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b6f0>,['Halogen']
+1-Bromooctane,CCCCCCCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b760>,['Halogen']
+Benomyl,CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc12,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b7d0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+aminopyrine,CN(C)c2c(C)n(C)n(c1ccccc1)c2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b840>,['Aromatic_Ring']
+3-Pentanol,CCC(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b8b0>,['Hydroxyl']
+p-Nitrotoluene,Cc1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b920>,['Aromatic_Ring']
+4-Methylpentanol,CC(C)CCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc53517b990>,['Hydroxyl']
+Norethisterone,CC34CCC1C(CCC2=CC(=O)CCC12O)C3CCC4(O)C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ba00>,"['Hydroxyl', 'Ketone']"
+bromopropylate,CC(C)OC(=O)C(O)(c1ccc(Br)cc1)c2ccc(Br)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc53517ba70>,"['Hydroxyl', 'Ester', 'Aromatic_Ring', 'Halogen']"
+Pyrazon,Nc2cnn(c1ccccc1)c(=O)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bae0>,"['Primary_Amine', 'Aromatic_Ring', 'Halogen']"
+2-Methylbutan-2-ol,CCC(C)(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bb50>,['Hydroxyl']
+p-Cresol,Cc1ccc(O)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bbc0>,"['Hydroxyl', 'Aromatic_Ring']"
+Ethyl formate,CCOC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bc30>,['Ester']
+"N,N-Dimethylaniline",CN(C)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bca0>,['Aromatic_Ring']
+Decalin,C1CCC2CCCCC2C1,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bd10>,[]
+Butanethiol,CCCCS,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bd80>,[]
+Benzo(e)pyrene,c1ccc2c(c1)c3cccc4ccc5cccc2c5c43,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bdf0>,['Aromatic_Ring']
+Tetrachloroethylene,ClC(=C(Cl)Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc53517be60>,['Halogen']
+3-Pentanone,CCC(=O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bed0>,['Ketone']
+Acrylonitrile,C=CC#N,<rdkit.Chem.rdchem.Mol object at 0x7fc53517bf40>,[]
+Flumethasone,CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535184040>,"['Hydroxyl', 'Ketone', 'Halogen']"
+2-Hexanone,CCCCC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351840b0>,['Ketone']
+Terbumeton,CCNc1nc(NC(C)(C)C)nc(OC)n1,<rdkit.Chem.rdchem.Mol object at 0x7fc535184120>,[]
+3-Methylheptane,CCCCC(C)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535184190>,[]
+"1,2-Dibromoethane",BrCCBr,<rdkit.Chem.rdchem.Mol object at 0x7fc535184200>,['Halogen']
+Isoprocarb,CNC(=O)Oc1ccccc1C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535184270>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Niridazole,O=C1NCCN1c2ncc(s2)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351842e0>,['Amide']
+Benzo(a)fluorene,C1c2ccccc2c3ccc4ccccc4c13,<rdkit.Chem.rdchem.Mol object at 0x7fc535184350>,['Aromatic_Ring']
+2-Chloroanisole,COc1ccccc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351843c0>,"['Aromatic_Ring', 'Halogen']"
+Bromophos,COP(=S)(OC)Oc1cc(Cl)c(Br)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535184430>,"['Aromatic_Ring', 'Halogen']"
+Quinonamid,ClC(Cl)CC(=O)NC2=C(Cl)C(=O)c1ccccc1C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351844a0>,"['Amide', 'Ketone', 'Aromatic_Ring', 'Halogen']"
+"P,P'-DDD",ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535184510>,"['Aromatic_Ring', 'Halogen']"
+Methyl acrylate,COC(=O)C=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535184580>,['Ester']
+Chloroxuron,CN(C)C(=O)Nc2ccc(Oc1ccc(Cl)cc1)cc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351845f0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Azobenzene,N(=Nc1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535184660>,['Aromatic_Ring']
+4-Isopropyltoluene,CC(C)c1ccc(C)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351846d0>,['Aromatic_Ring']
+"2,6-Dichlorophenol",Oc1c(Cl)cccc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535184740>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Sucrose,OCC2OC(OC1(CO)OC(CO)C(O)C1O)C(O)C(O)C2O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351847b0>,['Hydroxyl']
+d-inositol,OC1C(O)C(O)C(O)C(O)C1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535184820>,['Hydroxyl']
+Dyphylline,Cn2c(=O)n(C)c1ncn(CC(O)CO)c1c2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535184890>,['Hydroxyl']
+Chloramphenicol,OCC(NC(=O)C(Cl)Cl)C(O)c1ccc(cc1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535184900>,"['Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+3-Ethyl-3-pentanol,CCC(O)(CC)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535184970>,['Hydroxyl']
+Epitostanol,CC45CCC2C(CCC3CC1SC1CC23C)C4CCC5O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351849e0>,['Hydroxyl']
+"1,2-Dibromobenzene",Brc1ccccc1Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535184a50>,"['Aromatic_Ring', 'Halogen']"
+"2,4,6-Trichlorophenol",Oc1c(Cl)cc(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535184ac0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+oryzalin,CCCN(CCC)c1c(cc(cc1N(=O)=O)S(N)(=O)=O)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535184b30>,"['Primary_Amine', 'Aromatic_Ring']"
+RTI 20,C2c1ccccc1N(CCF)C(=O)c3ccccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535184ba0>,"['Aromatic_Ring', 'Halogen']"
+"2,4-Dimethyl-3-pentanone",CC(C)C(=O)C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535184c10>,['Ketone']
+5-(3-Methyl-2-butenyl)-5-isoPrbarbital,O=C1NC(=O)NC(=O)C1(C(C)C)CC=C(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535184c80>,['Amide']
+gentisin,c1c(O)C2C(=O)C3cc(O)ccC3OC2cc1(OC),<rdkit.Chem.rdchem.Mol object at 0x7fc535184cf0>,"['Hydroxyl', 'Ketone']"
+Caffeine,Cn1cnc2n(C)c(=O)n(C)c(=O)c12,<rdkit.Chem.rdchem.Mol object at 0x7fc535184d60>,[]
+Spironolactone,CC(=O)SC4CC1=CC(=O)CCC1(C)C5CCC2(C)C(CCC23CCC(=O)O3)C45,<rdkit.Chem.rdchem.Mol object at 0x7fc535184dd0>,"['Ester', 'Ketone']"
+"3,4-Dimethylphenol",Cc1ccc(O)cc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535184e40>,"['Hydroxyl', 'Aromatic_Ring']"
+Diphenyl ether,O(c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535184eb0>,['Aromatic_Ring']
+"2,2',4,4',5,5'-PCB",Clc1cc(Cl)c(cc1Cl)c2cc(Cl)c(Cl)cc2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535184f20>,"['Aromatic_Ring', 'Halogen']"
+nicotinamide,NC(=O)c1cccnc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535184f90>,['Primary_Amine']
+Thiophenol,Sc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535185000>,['Aromatic_Ring']
+XMC,CNC(=O)Oc1cc(C)cc(C)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc535185070>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Chlordane,ClC1CC2C(C1Cl)C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351850e0>,['Halogen']
+Dimethyldisulfide,CSSC,<rdkit.Chem.rdchem.Mol object at 0x7fc535185150>,[]
+Benzamide,NC(=O)c1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351851c0>,"['Primary_Amine', 'Aromatic_Ring']"
+o-Chlorobromobenzene,Clc1ccccc1Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535185230>,"['Aromatic_Ring', 'Halogen']"
+Monotropitoside,COC(=O)c1ccccc1OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351852a0>,"['Hydroxyl', 'Ester', 'Aromatic_Ring']"
+3-Heptanol,CCCCC(O)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535185310>,['Hydroxyl']
+RTI 15,CCN2c1nc(C)cc(C)c1NC(=O)c3cccnc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535185380>,['Amide']
+"3,5-Dichlorophenol",Oc1cc(Cl)cc(Cl)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351853f0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+1-Methylphenanthrene,Cc1cccc2c1ccc3ccccc32,<rdkit.Chem.rdchem.Mol object at 0x7fc535185460>,['Aromatic_Ring']
+2-Ethyl-1-hexanol,CCCCC(CC)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351854d0>,['Hydroxyl']
+Diallate,CC(C)N(C(C)C)C(=O)SCC(=CCl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535185540>,['Halogen']
+Toluene,Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351855b0>,['Aromatic_Ring']
+Nitrapyrin,Clc1cccc(n1)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535185620>,['Halogen']
+Cycloheptene,C1CCC=CCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535185690>,[]
+Thiram,CN(C)C(=S)SSC(=S)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535185700>,[]
+Griseofulvin,COC1=CC(=O)CC(C)C13Oc2c(Cl)c(OC)cc(OC)c2C3=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535185770>,"['Ketone', 'Aromatic_Ring', 'Halogen']"
+1-Decanol,CCCCCCCCCCO,<rdkit.Chem.rdchem.Mol object at 0x7fc5351857e0>,['Hydroxyl']
+"3,3-Dimethylpentane",CCC(C)(C)CC,<rdkit.Chem.rdchem.Mol object at 0x7fc535185850>,[]
+vamidothion,CNC(=O)C(C)SCCSP(=O)(OC)(OC),<rdkit.Chem.rdchem.Mol object at 0x7fc5351858c0>,['Amide']
+"2,3,4,5-Tetrachlorophenol",Oc1cc(Cl)c(Cl)c(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535185930>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Butyraldehyde,CCCC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351859a0>,[]
+dexamethasone acetate,CC4CC3C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC3(C)C4(O)C(=O)COC(C)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535185a10>,"['Hydroxyl', 'Ester', 'Ketone', 'Halogen']"
+Butane,CCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535185a80>,[]
+o-Methoxyphenol,COc1ccccc1O,<rdkit.Chem.rdchem.Mol object at 0x7fc535185af0>,"['Hydroxyl', 'Aromatic_Ring']"
+Fluoromethalone,CC1CC2C3CCC(O)(C(=O)C)C3(C)CC(O)C2(F)C4(C)C=CC(=O)C=C14,<rdkit.Chem.rdchem.Mol object at 0x7fc535185b60>,"['Hydroxyl', 'Ketone', 'Halogen']"
+Pentachloroethane,ClC(Cl)C(Cl)(Cl)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535185bd0>,['Halogen']
+Diethyl phthalate,CCOC(=O)c1ccccc1C(=O)OCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535185c40>,"['Ester', 'Aromatic_Ring']"
+2-Methylpropan-1-ol,CC(C)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535185cb0>,['Hydroxyl']
+Isobutylbenzene,CC(C)Cc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535185d20>,['Aromatic_Ring']
+Diiodomethane,ICI,<rdkit.Chem.rdchem.Mol object at 0x7fc535185d90>,['Halogen']
+4-Heptanol,CCCC(O)CCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535185e00>,['Hydroxyl']
+Pentyl acetate,CCCCCOC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535185e70>,['Ester']
+"2,3,5,6-Tetrachlorophenol",Oc1c(Cl)c(Cl)cc(Cl)c1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535185ee0>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Propylbenzene,CCCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535185f50>,['Aromatic_Ring']
+"1,2-Dichlorotetrafluoroethane",FC(F)(Cl)C(F)(F)Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535185fc0>,['Halogen']
+2-butenal,CC=CC=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535186030>,[]
+tetramethylurea,CN(C)C(=O)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351860a0>,[]
+"1,2,4,5-Tetramethylbenzene",Cc1cc(C)c(C)cc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc535186110>,['Aromatic_Ring']
+norethindrone acetate,CC(=O)OC3(CCC4C2CCC1=CC(=O)CCC1C2CCC34C)C#C,<rdkit.Chem.rdchem.Mol object at 0x7fc535186180>,"['Ester', 'Ketone']"
+Ditalimfos,CCOP(=S)(OCC)N2C(=O)c1ccccc1C2=O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351861f0>,['Aromatic_Ring']
+salicylanilide,c1ccccc1NC(=O)c2c(O)cccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535186260>,"['Hydroxyl', 'Amide', 'Aromatic_Ring']"
+Sulfallate,CCN(CC)C(=S)SCC(Cl)=C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351862d0>,['Halogen']
+Chloroethane,ClCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535186340>,['Halogen']
+Mefluidide,CC(=O)Nc1cc(NS(=O)(=O)C(F)(F)F)c(C)cc1C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351863b0>,"['Amide', 'Aromatic_Ring', 'Halogen']"
+Piperine,O=C(C=CC=Cc2ccc1OCOc1c2)N3CCCCC3,<rdkit.Chem.rdchem.Mol object at 0x7fc535186420>,['Aromatic_Ring']
+cis-2-Pentene,CC/C=C\C,<rdkit.Chem.rdchem.Mol object at 0x7fc535186490>,[]
+thiofanox,CNC(=O)ON=C(CSC)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535186500>,['Amide']
+Cyclooctyl-5-spirobarbituric acid,O=C2NC(=O)C1(CCCCCCC1)C(=O)N2,<rdkit.Chem.rdchem.Mol object at 0x7fc535186570>,['Amide']
+butacarb,c1(C(C)(C)C)cc(C(C)(C)C)cc(OC(=O)NC)c1,<rdkit.Chem.rdchem.Mol object at 0x7fc5351865e0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Eriodictyol,Oc2cc(O)c1C(=O)CC(Oc1c2)c3ccc(O)c(O)c3,<rdkit.Chem.rdchem.Mol object at 0x7fc535186650>,"['Hydroxyl', 'Ketone', 'Aromatic_Ring']"
+Benzophenone,O=C(c1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351866c0>,"['Ketone', 'Aromatic_Ring']"
+Eicosane,CCCCCCCCCCCCCCCCCCCC,<rdkit.Chem.rdchem.Mol object at 0x7fc535186730>,[]
+hydrazobenzene,N(Nc1ccccc1)c2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc5351867a0>,['Aromatic_Ring']
+2-Ethyl-1-butanol,CCC(CC)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535186810>,['Hydroxyl']
+4-hydroxypyridine,Oc1ccncc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535186880>,['Hydroxyl']
+"cis 1,2-Dichloroethylene",Cl\C=C/Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc5351868f0>,['Halogen']
+Methylcyclopentane,CC1CCCC1,<rdkit.Chem.rdchem.Mol object at 0x7fc535186960>,[]
+4-Methyl-2-pentanol,CC(C)CC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc5351869d0>,['Hydroxyl']
+RTI 11,O2c1ccc(N)cc1N(C)C(=O)c3cc(C)ccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535186a40>,"['Primary_Amine', 'Aromatic_Ring']"
+"2,2-Dimethylpropanol",CC(C)(C)CO,<rdkit.Chem.rdchem.Mol object at 0x7fc535186ab0>,['Hydroxyl']
+Triadimefon,CC(C)(C)C(=O)C(Oc1ccc(Cl)cc1)n2cncn2,<rdkit.Chem.rdchem.Mol object at 0x7fc535186b20>,"['Ketone', 'Aromatic_Ring', 'Halogen']"
+Isocarboxazid,Cc1cc(no1)C(=O)NNCc2ccccc2,<rdkit.Chem.rdchem.Mol object at 0x7fc535186b90>,"['Amide', 'Aromatic_Ring']"
+Propylene,CC=C,<rdkit.Chem.rdchem.Mol object at 0x7fc535186c00>,[]
+Dichlorophen,Oc1ccc(Cl)cc1Cc2cc(Cl)ccc2O,<rdkit.Chem.rdchem.Mol object at 0x7fc535186c70>,"['Hydroxyl', 'Aromatic_Ring', 'Halogen']"
+Desmedipham,CCOC(=O)Nc2cccc(OC(=O)Nc1ccccc1)c2,<rdkit.Chem.rdchem.Mol object at 0x7fc535186ce0>,"['Ester', 'Amide', 'Aromatic_Ring']"
+Anthraquinone,O=C1c2ccccc2C(=O)c3ccccc13,<rdkit.Chem.rdchem.Mol object at 0x7fc535186d50>,"['Ketone', 'Aromatic_Ring']"
+2-Octanol,CCCCCCC(C)O,<rdkit.Chem.rdchem.Mol object at 0x7fc535186dc0>,['Hydroxyl']
+Oxycarboxin,CC1=C(C(=O)Nc2ccccc2)S(=O)(=O)CCO1,<rdkit.Chem.rdchem.Mol object at 0x7fc535186e30>,"['Amide', 'Aromatic_Ring']"
+Butylbenzene,CCCCc1ccccc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535186ea0>,['Aromatic_Ring']
+parabanic acid,O=C1NC(=O)C(=O)N1,<rdkit.Chem.rdchem.Mol object at 0x7fc535186f10>,['Amide']
+Abate,COP(=S)(OC)Oc1ccc(Sc2ccc(OP(=S)(OC)OC)cc2)cc1,<rdkit.Chem.rdchem.Mol object at 0x7fc535186f80>,['Aromatic_Ring']
+Chlorthalidone,NS(=O)(=O)c1cc(ccc1Cl)C2(O)NC(=O)c3ccccc23,<rdkit.Chem.rdchem.Mol object at 0x7fc535186ff0>,"['Primary_Amine', 'Hydroxyl', 'Amide', 'Aromatic_Ring', 'Halogen']"
+Isobutyl acetate,CC(C)COC(=O)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535187060>,['Ester']
+"2,2,3-Trimethylbutane",CC(C)C(C)(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351870d0>,[]
+"2,3,3',4,4'6-PCB",Clc1ccc(c(Cl)c1Cl)c2c(Cl)cc(Cl)c(Cl)c2Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535187140>,"['Aromatic_Ring', 'Halogen']"
+Phthalonitrile,N#Cc1ccccc1C#N,<rdkit.Chem.rdchem.Mol object at 0x7fc5351871b0>,['Aromatic_Ring']
+m-Nitrotoluene,Cc1cccc(c1)N(=O)=O,<rdkit.Chem.rdchem.Mol object at 0x7fc535187220>,['Aromatic_Ring']
+halothane,FC(F)(F)C(Cl)Br,<rdkit.Chem.rdchem.Mol object at 0x7fc535187290>,['Halogen']
+Oxamyl,CNC(=O)ON=C(SC)C(=O)N(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc535187300>,['Amide']
+Thiometon,CCSCCSP(=S)(OC)OC,<rdkit.Chem.rdchem.Mol object at 0x7fc535187370>,[]
+2-Methylbutane,CCC(C)C,<rdkit.Chem.rdchem.Mol object at 0x7fc5351873e0>,[]
+Stirofos,COP(=O)(OC)OC(=CCl)c1cc(Cl)c(Cl)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7fc535187450>,"['Aromatic_Ring', 'Halogen']"
